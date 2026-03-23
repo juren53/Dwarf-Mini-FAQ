@@ -81,6 +81,9 @@ The Dwarf Mini creates its own Wi-Fi hotspot. You connect your phone to that hot
 **Q: Do I need an internet connection to use the Dwarf Mini?**
 No. The connection is direct phone-to-telescope over the Dwarf Mini's own Wi-Fi. However, some app features (star catalog lookups, firmware updates) may require internet access. You can enable internet pass-through or use a home Wi-Fi network if the app supports it.
 
+**Q: What is AP mode?**
+AP mode (Access Point mode) is the Dwarf Mini's default network mode. In AP mode the telescope acts as its own Wi-Fi hotspot — your phone connects directly to it, and all communication stays between the phone and the scope. There is no internet access in this mode unless your phone has a separate mobile data connection. AP mode is the simplest setup and works anywhere, even in the field with no router nearby. Compare with **STA mode** (see below), where the Dwarf Mini joins an existing Wi-Fi network instead.
+
 **Q: Can I connect the Dwarf Mini to my home Wi-Fi network?**
 Yes. The DWARFLAB app includes a **STA mode** (Station mode) option that allows the Dwarf Mini to join your home Wi-Fi network instead of acting as its own hotspot. This gives the telescope internet access (useful for firmware updates and star catalog lookups) while keeping your phone connected to your home network. To set this up, connect to the Dwarf Mini's hotspot first, then use the app's Wi-Fi or network settings to enter your home Wi-Fi credentials.
 

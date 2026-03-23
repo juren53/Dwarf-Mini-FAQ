@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-23 1430 CST
+
+### Added
+- **Q: What is AP mode?** — explains Access Point mode (default hotspot mode) and contrasts it with STA mode (Section 3)
+
+---
+
 ## 2026-03-23 1200 CST
 
 ### Added
