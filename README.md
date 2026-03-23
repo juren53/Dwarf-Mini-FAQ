@@ -81,6 +81,9 @@ The Dwarf Mini creates its own Wi-Fi hotspot. You connect your phone to that hot
 **Q: Do I need an internet connection to use the Dwarf Mini?**
 No. The connection is direct phone-to-telescope over the Dwarf Mini's own Wi-Fi. However, some app features (star catalog lookups, firmware updates) may require internet access. You can enable internet pass-through or use a home Wi-Fi network if the app supports it.
 
+**Q: Can I connect the Dwarf Mini to my home Wi-Fi network?**
+Yes. The DWARFLAB app includes a **STA mode** (Station mode) option that allows the Dwarf Mini to join your home Wi-Fi network instead of acting as its own hotspot. This gives the telescope internet access (useful for firmware updates and star catalog lookups) while keeping your phone connected to your home network. To set this up, connect to the Dwarf Mini's hotspot first, then use the app's Wi-Fi or network settings to enter your home Wi-Fi credentials.
+
 **Q: How do I turn the Dwarf Mini on and off?**
 Press and hold the power button until the indicator light comes on (or off). Refer to the quick-start card included in the box for your specific unit, as button behavior may change with firmware updates.
 
