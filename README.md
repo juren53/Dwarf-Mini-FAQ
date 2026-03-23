@@ -185,6 +185,9 @@ Some smart telescope apps use **plate solving** — the camera takes an image, c
 **Q: Does the Dwarf Mini track objects?**
 Yes. Once pointed at a target, the Dwarf Mini's motors compensate for Earth's rotation to keep the object in frame. This is essential for longer exposures.
 
+**Q: How do I stop a current session to slew the telescope to a new target?**
+Stop the current imaging session by tapping the **Stop** button (or shutter button, depending on app version) in the app. The telescope will stop capturing and stacking. You can then use GoTo to select a new target — the scope will slew and begin a fresh stacking session on the new object. Any stacked image from the previous session should be saved to internal storage before you switch targets.
+
 **Q: The GoTo pointed at the wrong part of the sky. What should I do?**
 - Make sure your phone's location (GPS) is correct and that the date/time on your phone is accurate.
 - Make sure the Dwarf Mini started from a reasonably level position.
