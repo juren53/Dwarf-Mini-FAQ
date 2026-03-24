@@ -8,6 +8,16 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1800 CST
+
+### Added
+- **Q: What is Infinity Lab?** — explains the three-tool suite (Mega Stack, Stellar Studio, Pano Weave) with a support table noting Pano Weave is DWARF 3 only (Section 10)
+
+### Changed
+- **Section 10 renamed** from "Stellar Studio" to "Stellar Studio & Infinity Lab" to reflect broader scope
+
+---
+
 ## 2026-03-24 1700 CST
 
 ### Fixed
