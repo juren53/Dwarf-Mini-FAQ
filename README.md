@@ -283,6 +283,7 @@ The galactic core is in the direction of the constellation **Sagittarius**. Use 
 | Stacking frames | 50–150+ |
 
 **Key tips:**
+
 - **Dark skies matter more for the Milky Way than almost any other target.** Light pollution washes out the faint star clouds quickly. Aim for Bortle class 4 or darker if possible.
 - **Use EQ mode** for Milky Way imaging. Exposures of 15 seconds and above benefit from EQ mode, and 30 seconds and above require it. The galactic core rewards longer exposures — EQ mode is the right choice here. See Section 2 for EQ mode setup details.
 - Tracking is essential — exposures long enough to reveal the Milky Way will show star trails without it. Make sure GoTo/tracking is active.
