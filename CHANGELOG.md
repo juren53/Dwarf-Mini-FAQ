@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 0900 CST
+
+### Added
+- **Q: Where can I find the DWARFLAB app and firmware version history?** — lists recent Android, iOS, and Stellar Studio versions with dates; links to official download page (Section 5)
+
+---
+
 ## 2026-03-24 0000 CST
 
 ### Added
