@@ -67,7 +67,7 @@ The Dwarf Mini has internal storage. Check the current firmware release notes fo
 ## 3. Tripod & Mounting
 
 **Q: What tripod comes with the Dwarf Mini?**
-The Dwarf Mini ships with a compact tabletop tripod. Its legs fold flat for storage and extend outward for use. The tripod is sized for placement on a table, wall, car roof, or any other flat surface at a comfortable height — not for freestanding use on the ground.
+The Dwarf Mini does not ship with a tripod, DwarfLab has a nice compact tabletop tripod that works well with the Mini. Its legs fold flat for storage and extend outward for use. The tripod is sized for placement on a table, wall, car roof, or any other flat surface at a comfortable height — not for freestanding use on the ground.
 
 **Q: What is the mounting thread size on the Dwarf Mini?**
 The Dwarf Mini uses a standard **1/4"-20 UNC** threaded socket on its base — the same thread used by most cameras and camera accessories. This makes it compatible with a wide range of tripods, adapters, and ball heads.
@@ -102,6 +102,9 @@ Prioritize firmness and stability. Hard, flat surfaces (concrete, pavement, a so
 
 **Q: Can I mount the Dwarf Mini on an equatorial mount or tracking platform?**
 The Dwarf Mini has its own built-in alt-azimuth tracking motors and is designed for use on a fixed, level tripod. Mounting it on a separate tracking platform is not a supported configuration — the onboard tracking and the platform's motion would conflict. This setup is not recommended.
+
+**Q: Does the Dwarf Mini communicate with the DWARFLAB tabletop tripod?**
+No. The DWARFLAB tabletop tripod (sold separately) is a purely mechanical accessory — it has no electronics, no Bluetooth, and no data connection of any kind. The Dwarf Mini has no awareness of what it is mounted on. The tripod's only job is to provide a stable, level platform.
 
 ---
 
