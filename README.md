@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 0000 CST*
+*Last updated: 2026-03-24 0900 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -171,6 +171,31 @@ Yes, the DWARFLAB app runs on both smartphones and tablets. A tablet's larger sc
 
 **Q: Can I use the Dwarf Mini without the app?**
 No. The app is required to operate the Dwarf Mini.
+
+**Q: Where can I find the DWARFLAB app and firmware version history?**
+The official download and release history page is at [dwarflab.com/pages/dwarflab-app-firmware-download](https://dwarflab.com/pages/dwarflab-app-firmware-download). Recent releases as of early 2026:
+
+**Android app:**
+| Version | Date |
+|---|---|
+| V3.3.8 | 2026-02-10 |
+| V3.3.5 B564 | 2025-12-31 |
+| V3.3.1 B528 | 2025-11-12 |
+
+**iOS app:**
+| Version | Date |
+|---|---|
+| V3.3.9 B8 | 2026-02-24 |
+| V3.3.1 B8 | 2025-11-12 |
+
+**Stellar Studio** (companion processing app):
+| Version | Date |
+|---|---|
+| V1.4.15.2 / iOS V1.0.25.2 | 2026-02-10 |
+| V1.4.12.1 / iOS V1.0.22.1 | 2026-01-22 |
+| V1.4.7.5 | 2025-11-06 |
+
+> **Note:** Not all release notes distinguish Dwarf Mini-specific changes from Dwarf 2/3 changes. Always check the official page for the latest version and full release notes.
 
 ---
 
@@ -360,4 +385,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 0000 CST*
+*Last updated: 2026-03-24 0900 CST*
