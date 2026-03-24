@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1230 CST
+
+### Added
+- **Q: What is Panorama mode?** — covers EQ mode requirement, manual framing, how panels are captured, and stitching options on desktop (Hugin, PTGui, ICE) since Pano Weave is DWARF 3 only (Section 10)
+
+---
+
 ## 2026-03-24 0721 CST
 
 ### Changed

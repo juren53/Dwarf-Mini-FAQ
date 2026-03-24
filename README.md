@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 0721 CST*
+*Last updated: 2026-03-24 1230 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -379,6 +379,20 @@ Check your current app and firmware version — options for saving individual fr
 **Q: What image formats does the Dwarf Mini save?**
 The primary output is JPEG for processed/stacked images. Availability of RAW or FITS output depends on firmware version.
 
+**Q: What is Panorama mode?**
+Panorama mode captures a series of overlapping telephoto shots that can be stitched together into a wide-field composite image. It is useful for capturing large regions of sky, wide landscapes, or extended objects that don't fit in a single frame.
+
+**How it works:**
+1. Set up the Dwarf Mini in **EQ mode** — Panorama mode requires EQ mode and will not run in Alt-Az mode
+2. Select Panorama mode in the app
+3. Use the **manual framing** tool (added in app V3.3.8, February 2026) to visually preview and define the panorama area
+4. The scope automatically slews through the defined area, capturing and stacking each panel
+
+**Stitching the result:**
+The Dwarf Mini does **not** support Pano Weave cloud stitching — that feature is exclusive to the DWARF 3. On the Dwarf Mini, the album shows a preview of the individual panels but they cannot be downloaded directly to your phone. To create a stitched panorama you will need to transfer the image files to a computer and use desktop stitching software such as **Microsoft ICE**, **Hugin** (free), or **PTGui**.
+
+> See Section 11 for more on why Pano Weave is unavailable on the Dwarf Mini.
+
 ---
 
 ## 11. Stellar Studio & Infinity Lab
@@ -544,4 +558,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 0721 CST*
+*Last updated: 2026-03-24 1230 CST*
