@@ -1,0 +1,12 @@
+Additional FAQ Items
+
+A few things that could be worth adding over time as you learn more about the scope:
+
+  - Sky Finder — it was mentioned in the V3.3.8 release notes but never explained in the FAQ
+  - Star Trail mode — same, mentioned in version history but no dedicated entry
+  - Infinity Lab — the search results mentioned it as a built-in processing feature distinct from Stellar Studio
+  - Focusing — no section on how autofocus works or manual focus adjustment
+  - Panorama mode — mentioned in release notes, nothing in the FAQ yet
+
+  No rush — just candidates for when you have more hands-on time with the scope. Whenever you're ready to add more, just say the word.
+
