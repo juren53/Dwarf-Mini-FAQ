@@ -1,5 +1,7 @@
 # Dwarf Mini Smart Telescope — FAQ
 
+*Last updated: 2026-03-23 1600 CST*
+
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
 > **Want to contribute or suggest a question?**
@@ -11,17 +13,18 @@ A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
 1. [What Is the Dwarf Mini?](#1-what-is-the-dwarf-mini)
 2. [Hardware & Specifications](#2-hardware--specifications)
-3. [Setup & First Use](#3-setup--first-use)
-4. [The Dwarf Lab App](#4-the-dwarf-lab-app)
-5. [Daytime Photography](#5-daytime-photography)
-6. [Astrophotography](#6-astrophotography)
-7. [GoTo & Tracking](#7-goto--tracking)
-8. [Image Capture & Stacking](#8-image-capture--stacking)
-9. [Calibration Frames](#9-calibration-frames)
-10. [Storing & Transferring Images](#10-storing--transferring-images)
-11. [Troubleshooting](#11-troubleshooting)
-12. [Tips & Best Practices](#12-tips--best-practices)
-13. [Resources & Community](#13-resources--community)
+3. [Tripod & Mounting](#3-tripod--mounting)
+4. [Setup & First Use](#4-setup--first-use)
+5. [The Dwarf Lab App](#5-the-dwarf-lab-app)
+6. [Daytime Photography](#6-daytime-photography)
+7. [Astrophotography](#7-astrophotography)
+8. [GoTo & Tracking](#8-goto--tracking)
+9. [Image Capture & Stacking](#9-image-capture--stacking)
+10. [Calibration Frames](#10-calibration-frames)
+11. [Storing & Transferring Images](#11-storing--transferring-images)
+12. [Troubleshooting](#12-troubleshooting)
+13. [Tips & Best Practices](#13-tips--best-practices)
+14. [Resources & Community](#14-resources--community)
 
 ---
 
@@ -59,12 +62,50 @@ The Dwarf Mini has a built-in battery. Expected runtime varies by use case (moto
 **Q: What storage does the Dwarf Mini have?**
 The Dwarf Mini has internal storage. Check the current firmware release notes for capacity. Images can be transferred to your phone via the app.
 
-**Q: Does the Dwarf Mini have a tripod?**
-Yes, the Dwarf Mini ships with a small tabletop tripod. It can also be mounted on a standard 1/4"-20 camera tripod.
+---
+
+## 3. Tripod & Mounting
+
+**Q: What tripod comes with the Dwarf Mini?**
+The Dwarf Mini ships with a compact tabletop tripod. Its legs fold flat for storage and extend outward for use. The tripod is sized for placement on a table, wall, car roof, or any other flat surface at a comfortable height — not for freestanding use on the ground.
+
+**Q: What is the mounting thread size on the Dwarf Mini?**
+The Dwarf Mini uses a standard **1/4"-20 UNC** threaded socket on its base — the same thread used by most cameras and camera accessories. This makes it compatible with a wide range of tripods, adapters, and ball heads.
+
+**Q: How do I attach the Dwarf Mini to the included tripod?**
+Align the tripod's center stud with the 1/4"-20 socket on the bottom of the scope and turn clockwise until snug. Finger-tight is sufficient — do not overtighten.
+
+**Q: Does the Dwarf Mini need to be level?**
+Yes, and this matters more than it might seem. The Dwarf Mini calculates GoTo pointing positions using an alt-azimuth coordinate system that assumes a level base. A significantly tilted unit will cause GoTo slews to consistently miss targets. Set the tripod on a flat surface before powering on, and confirm the unit is approximately level before starting a session. A small bubble level placed on top of the scope is a handy accessory for this.
+
+**Q: Can I use a full-size camera tripod instead of the included tabletop tripod?**
+Yes. Any standard camera tripod with a 1/4"-20 stud or head is compatible. A taller, heavier tripod improves stability — especially in windy conditions — and lets you position the scope at eye level rather than bending over a table. Make sure the tripod head is level before powering on.
+
+**Q: Can I use a ball head or pan-tilt head?**
+Yes, but use it only to level the scope before powering on — not to reposition it during a session. Once the Dwarf Mini is powered on and aligned, its own motors handle all movement. Adjusting the tripod head mid-session will break tracking and GoTo alignment and require you to start over.
+
+**Q: Can I use the Dwarf Mini without any tripod?**
+You can set the Dwarf Mini directly on a flat, stable surface using its base as a rest. However, even the included tabletop tripod is preferable: it raises the scope slightly, helps level it, and isolates it from surface contact. Direct placement on a hard surface also transmits more vibration.
+
+**Q: How do I adjust the height of the included tabletop tripod?**
+The included tabletop tripod has fixed-length legs — it folds and unfolds but is not height-adjustable. If you need more height or adjustability, use a standard camera tripod.
+
+**Q: What surface should I place the tripod on?**
+Prioritize firmness and stability. Hard, flat surfaces (concrete, pavement, a solid table) transmit less vibration than soft ones (grass, carpet, a hollow wooden deck). Vibration from footsteps, wind, or a flexing surface shows up in stacked images as star trails or blurred frames.
+
+**Q: The tripod feels wobbly or unstable. What should I do?**
+- Make sure all leg locks (if present) are firmly tightened.
+- Place the tripod on a firm, level surface.
+- On soft ground, press the tripod feet into the surface to seat them before starting.
+- If using a full-size tripod with an extendable center column, keep the column retracted — shorter is more stable.
+- On a full-size tripod, hanging a weight (a camera bag or dedicated hook weight) from the center column lowers the center of gravity and damps vibration.
+
+**Q: Can I mount the Dwarf Mini on an equatorial mount or tracking platform?**
+The Dwarf Mini has its own built-in alt-azimuth tracking motors and is designed for use on a fixed, level tripod. Mounting it on a separate tracking platform is not a supported configuration — the onboard tracking and the platform's motion would conflict. This setup is not recommended.
 
 ---
 
-## 3. Setup & First Use
+## 4. Setup & First Use
 
 **Q: What do I need to get started?**
 - The Dwarf Mini telescope
@@ -100,7 +141,7 @@ Press and hold the power button until the indicator light comes on (or off). Ref
 
 ---
 
-## 4. The Dwarf Lab App
+## 5. The Dwarf Lab App
 
 **Q: What can the app do?**
 The DWARFLAB app is the primary interface for the Dwarf Mini. It provides:
@@ -130,7 +171,7 @@ No. The app is required to operate the Dwarf Mini.
 
 ---
 
-## 5. Daytime Photography
+## 6. Daytime Photography
 
 **Q: Can the Dwarf Mini be used during the day?**
 Yes. The Dwarf Mini works well as a daytime spotting scope / telephoto camera. It can photograph distant landscapes, wildlife, or other subjects.
@@ -143,7 +184,7 @@ During the day, use short exposures and lower gain to avoid overexposure. The ap
 
 ---
 
-## 6. Astrophotography
+## 7. Astrophotography
 
 **Q: What kinds of objects can the Dwarf Mini photograph?**
 The Dwarf Mini's wide field of view makes it best suited for:
@@ -177,7 +218,7 @@ Thermal equilibration is less critical for the Dwarf Mini than for large reflect
 
 ---
 
-## 7. GoTo & Tracking
+## 8. GoTo & Tracking
 
 **Q: What is GoTo?**
 GoTo is the automatic slew feature — you select a target in the app, and the telescope motors move the scope to point at that target.
@@ -202,7 +243,7 @@ Stop the current imaging session by pressing and holding the **Stop** button (or
 
 ---
 
-## 8. Image Capture & Stacking
+## 9. Image Capture & Stacking
 
 **Q: What is live stacking?**
 Live stacking is the automatic combination of multiple exposures taken back-to-back. Each new frame is aligned and added to the previous frames, progressively building up a brighter, smoother image. The result improves continuously while the telescope keeps shooting.
@@ -218,7 +259,7 @@ The primary output is JPEG for processed/stacked images. Availability of RAW or 
 
 ---
 
-## 9. Calibration Frames
+## 10. Calibration Frames
 
 **Q: What are calibration frames?**
 Calibration frames are special images used to subtract noise and optical artifacts from your science (light) frames:
@@ -232,7 +273,7 @@ Support varies by firmware and app version. Check current DWARFLAB release notes
 
 ---
 
-## 10. Storing & Transferring Images
+## 11. Storing & Transferring Images
 
 **Q: Where are images saved?**
 Images are saved to the Dwarf Mini's internal storage. They can be transferred to your phone via the app.
@@ -245,7 +286,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 11. Troubleshooting
+## 12. Troubleshooting
 
 **Q: The app won't connect to the Dwarf Mini. What should I try?**
 1. Confirm the Dwarf Mini is powered on and the indicator light is showing a connected/ready state.
@@ -280,7 +321,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 12. Tips & Best Practices
+## 13. Tips & Best Practices
 
 - **Charge before every session.** Don't start a session with a partially charged battery.
 - **Update firmware.** DWARFLAB releases updates that improve GoTo accuracy, stacking quality, and app features. Stay current.
@@ -292,7 +333,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 13. Resources & Community
+## 14. Resources & Community
 
 - **DWARFLAB Official Website:** [https://www.dwarflab.com](https://www.dwarflab.com)
 - **DWARFLAB User Manual / Downloads:** Check the official site's support/download section
@@ -315,3 +356,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ---
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
+
+*Last updated: 2026-03-23 1600 CST*

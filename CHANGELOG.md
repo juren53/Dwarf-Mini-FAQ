@@ -8,18 +8,40 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-23 1600 CST
+
+### Added
+- **Section 3: Tripod & Mounting** — new dedicated section (10 Q&A entries) covering:
+  - What tripod ships with the Dwarf Mini
+  - Mounting thread size (1/4"-20 UNC)
+  - How to attach the scope to the tripod
+  - Why leveling matters for GoTo accuracy
+  - Using a full-size camera tripod
+  - Ball heads and pan-tilt heads (level before powering on only)
+  - Using the scope without a tripod
+  - Adjusting tabletop tripod height (fixed legs — not adjustable)
+  - Best surfaces for tripod placement
+  - Troubleshooting a wobbly tripod
+  - Equatorial mounts / tracking platforms (not supported)
+
+### Changed
+- Renumbered sections 3–13 to 4–14 to accommodate the new Tripod & Mounting section
+- Removed brief tripod Q ("Does the Dwarf Mini have a tripod?") from Section 2 — content now covered in detail in Section 3
+
+---
+
 ## 2026-03-23 1430 CST
 
 ### Added
-- **Q: What is AP mode?** — explains Access Point mode (default hotspot mode) and contrasts it with STA mode (Section 3)
+- **Q: What is AP mode?** — explains Access Point mode (default hotspot mode) and contrasts it with STA mode (Section 4)
 
 ---
 
 ## 2026-03-23 1200 CST
 
 ### Added
-- **Q: Can I connect the Dwarf Mini to my home Wi-Fi network?** — covers STA mode, benefits, and setup steps (Section 3)
-- **Q: How do I stop a current session to slew the telescope to a new target?** — covers press-and-hold Stop button, GoTo to new target, and saving prior stacked image (Section 7)
+- **Q: Can I connect the Dwarf Mini to my home Wi-Fi network?** — covers STA mode, benefits, and setup steps (Section 4)
+- **Q: How do I stop a current session to slew the telescope to a new target?** — covers press-and-hold Stop button, GoTo to new target, and saving prior stacked image (Section 8)
 
 ### Fixed
 - **Stop button action corrected** — changed "tapping" to "pressing and holding" the Stop button to end a session
