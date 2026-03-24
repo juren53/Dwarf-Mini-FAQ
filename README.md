@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1800 CST*
+*Last updated: 2026-03-24 1830 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -354,9 +354,11 @@ Infinity Lab is DWARFLAB's built-in suite of post-processing tools, accessible d
 |---|---|---|
 | **Mega Stack** | Combines frames from multiple separate sessions to build a deeper, cleaner result than any single session can achieve | Yes |
 | **Stellar Studio** | Advanced per-image processing — denoising, star shape correction, star removal | Yes |
-| **Pano Weave** | Cloud-based stitching of telephoto shots into an ultra-wide panoramic image | DWARF 3 only (not confirmed for Dwarf Mini) |
+| **Pano Weave** | Cloud-based stitching of telephoto shots into an ultra-wide gigapixel panoramic image | No — DWARF 3 only |
 
 Infinity Lab runs entirely within the DWARFLAB mobile app — no desktop software or separate download required. You access it from the top of your album after a session.
+
+> **Why is Pano Weave DWARF 3 only?** Pano Weave requires the multi-shot telephoto panorama shooting mode, which depends on the DWARF 3's dual-camera system (telephoto + wide-angle working together). The Dwarf Mini is a single-camera system and lacks this shooting mode entirely. This is one of the clearer hardware differentiators between the two models — if gigapixel panorama stitching matters to you, the DWARF 3 is the right choice.
 
 **Q: What is Stellar Studio?**
 Stellar Studio is a companion app made by DWARFLAB for post-processing the images captured by your Dwarf Mini (and other DWARF telescopes). While the main DWARFLAB app handles live capture and in-the-field stacking, Stellar Studio lets you revisit your saved data later on your phone or tablet — reprocessing, adjusting, and exporting final images at your own pace.
@@ -491,4 +493,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1800 CST*
+*Last updated: 2026-03-24 1830 CST*
