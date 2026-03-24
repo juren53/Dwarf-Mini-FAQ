@@ -8,6 +8,16 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 0000 CST
+
+### Added
+- **Q: Does the Dwarf Mini communicate with the DWARFLAB tabletop tripod?** — clarifies the tripod is a passive mechanical accessory with no electronics (Section 3)
+
+### Fixed
+- **Tabletop tripod is not included** — corrected FAQ to note the DWARFLAB tabletop tripod is sold separately, not bundled with the Dwarf Mini
+
+---
+
 ## 2026-03-23 1600 CST
 
 ### Added
