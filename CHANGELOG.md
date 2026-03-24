@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1500 CST
+
+### Added
+- **Q: How do I image the Milky Way?** — covers best season, where to point, recommended gain/exposure settings, dark sky requirements, tracking, dew, and Panorama mode tip (Section 7)
+
+---
+
 ## 2026-03-24 1400 CST
 
 ### Added

@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1400 CST*
+*Last updated: 2026-03-24 1500 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -241,6 +241,30 @@ Thermal equilibration is less critical for the Dwarf Mini than for large reflect
 **Q: Can the Dwarf Mini photograph comets?**
 Yes. Comets are supported as GoTo targets in the DWARFLAB app. Because comets move relative to the background stars, their coordinates change over time — the app uses current ephemeris data to calculate the comet's position. A bug affecting incorrect comet GoTo coordinates was fixed in Android app V3.3.1 B528 (2025-11-12), so make sure your app is up to date if you plan to image comets. The Dwarf Mini's wide field of view is actually well suited for bright comets, which often have extended tails that benefit from a wider frame.
 
+**Q: How do I image the Milky Way?**
+The Dwarf Mini is well suited for Milky Way photography — its wide field of view (~3.7° × 2.8°) and fast f/4.2 focal ratio are a good match for large extended objects like the galactic core.
+
+**When to shoot:**
+The galactic core (the bright, dense central band) is only above the horizon during certain months. In the northern hemisphere it is best visible from approximately **late April through September**, with peak visibility in July and August. In the southern hemisphere the season is longer and the core appears higher in the sky.
+
+**Where to point:**
+The galactic core is in the direction of the constellation **Sagittarius**. Use the Sky Finder feature or the app's star chart to locate it. For a wider composition, the Milky Way band itself stretches across a large arc — Panorama mode can help capture more of it.
+
+**Recommended settings (starting point):**
+
+| Setting | Value |
+|---|---|
+| Exposure | 10–20 s |
+| Gain | 80–120 |
+| Stacking frames | 50–150+ |
+
+**Key tips:**
+- **Dark skies matter more for the Milky Way than almost any other target.** Light pollution washes out the faint star clouds quickly. Aim for Bortle class 4 or darker if possible.
+- Tracking is essential — exposures long enough to reveal the Milky Way will show star trails without it. Make sure GoTo/tracking is active.
+- Shoot when the core is high in the sky (above 30°) to minimize atmospheric haze near the horizon.
+- Dew and humidity can fog the lens on warm summer nights — check the lens periodically during long sessions.
+- The Milky Way is a good candidate for Panorama mode if you want to capture a wider sweep than a single frame allows.
+
 ---
 
 ## 8. GoTo & Tracking
@@ -429,4 +453,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1400 CST*
+*Last updated: 2026-03-24 1500 CST*
