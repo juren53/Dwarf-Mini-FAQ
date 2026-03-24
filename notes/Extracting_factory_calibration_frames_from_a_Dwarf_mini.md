@@ -1,0 +1,34 @@
+## Extracting_factory_calibration_frames_from_a_Dwarf_mini.md
+
+To extract the factory calibration frames from your Dwarf mini telescope (Dwarf II or Dwarf 3) and use them in Siril, you need to access the internal file system. These files are typically hidden or stored in a specific system folder to prevent accidental deletion.
+
+### **1. Locate the Calibration Files**
+Connect your Dwarf telescope to your computer via USB (in MTP/File Transfer mode) or insert the microSD card into your computer.
+
+* **File Path:** Look for a folder named `Astronomy`. Inside, you will find a subfolder named **`CALI_FRAME`**.
+* **What’s Inside:** This folder contains three key sub-directories: `bias`, `dark`, and `flat`.
+* **The "2038" Date:** Don't be confused if the files are dated **January 1, 2038**. This is a placeholder date used by the factory to ensure these files are easily identifiable and aren't overwritten by standard session data.
+
+### **2. Identify the Correct Files for Your Session**
+The Dwarf stores multiple factory files to match different hardware settings. You must select the ones that match the **Gain** and **Binning** you used for your "Light" frames:
+
+* **Bias:** Look for files named `telephoto_bias_gain_X_bin_Y.fits`.
+* **Flats:** Look for files that match your filter setting (e.g., `ir_0` for Visible, `ir_1` for Astro/UHC, or `ir_2` for Duo-Band).
+* **Darks:** If you didn't take your own darks during the session, you can use the factory ones, but it is highly recommended to use the ones in the `DWARF_DARK` folder that you captured on the night of imaging, as darks are temperature-dependent.
+
+
+### **3. Preparing for Siril**
+Siril works best when files are organized into a specific folder structure. Create a new "Working Directory" on your computer and set up the following four folders:
+1.  **`biases`**: Copy the factory bias FITS file here.
+2.  **`flats`**: Copy the factory flat FITS file here.
+3.  **`darks`**: Copy your session darks (or factory darks) here.
+4.  **`lights`**: Copy your raw light frames (`DWARF_RAW` folder) here.
+
+### **4. Using the "One-Click" Script (Recommended)**
+Since manual calibration in Siril can be complex, many Dwarf users use a custom script that automates the extraction and application of these factory frames.
+
+* **Naztronomy/DeepSkyLab Scripts:** There are specialized "Dwarf-to-Siril" scripts available (such as the one from DeepSkyLab) that you can drop into your Siril scripts folder. 
+* **How it works:** You point Siril to your `Astronomy` folder, and the script automatically pulls the matching factory bias/flat and your session darks to produce a calibrated stack.
+
+### **Expert Tip: The "No-Flat" Alternative**
+If you find that the factory flats are over-correcting your image (creating bright corners), many Siril users choose to run the **`OSC_Preprocessing_WithoutFlat`** script instead. Because the Dwarf's sensor is so small and the optics are well-matched, the "Background Extraction" tool in Siril can often remove vignetting just as effectively as the factory flat frames.
