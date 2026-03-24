@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1630 CST*
+*Last updated: 2026-03-24 1800 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -20,7 +20,7 @@ A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 7. [Astrophotography](#7-astrophotography)
 8. [GoTo & Tracking](#8-goto--tracking)
 9. [Image Capture & Stacking](#9-image-capture--stacking)
-10. [Stellar Studio](#10-stellar-studio)
+10. [Stellar Studio & Infinity Lab](#10-stellar-studio--infinity-lab)
 11. [Calibration Frames](#11-calibration-frames)
 12. [Storing & Transferring Images](#12-storing--transferring-images)
 13. [Troubleshooting](#13-troubleshooting)
@@ -345,7 +345,18 @@ The primary output is JPEG for processed/stacked images. Availability of RAW or 
 
 ---
 
-## 10. Stellar Studio
+## 10. Stellar Studio & Infinity Lab
+
+**Q: What is Infinity Lab?**
+Infinity Lab is DWARFLAB's built-in suite of post-processing tools, accessible directly from the album section of the DWARFLAB app. It brings three tools together under one roof:
+
+| Tool | What it does | Dwarf Mini support |
+|---|---|---|
+| **Mega Stack** | Combines frames from multiple separate sessions to build a deeper, cleaner result than any single session can achieve | Yes |
+| **Stellar Studio** | Advanced per-image processing — denoising, star shape correction, star removal | Yes |
+| **Pano Weave** | Cloud-based stitching of telephoto shots into an ultra-wide panoramic image | DWARF 3 only (not confirmed for Dwarf Mini) |
+
+Infinity Lab runs entirely within the DWARFLAB mobile app — no desktop software or separate download required. You access it from the top of your album after a session.
 
 **Q: What is Stellar Studio?**
 Stellar Studio is a companion app made by DWARFLAB for post-processing the images captured by your Dwarf Mini (and other DWARF telescopes). While the main DWARFLAB app handles live capture and in-the-field stacking, Stellar Studio lets you revisit your saved data later on your phone or tablet — reprocessing, adjusting, and exporting final images at your own pace.
@@ -480,4 +491,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1630 CST*
+*Last updated: 2026-03-24 1800 CST*
