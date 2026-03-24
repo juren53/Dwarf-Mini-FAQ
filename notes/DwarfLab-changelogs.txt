@@ -1,0 +1,9 @@
+https://dwarflab.com/pages/dwarflab-app-firmware-download
+
+https://help.dwarflab.com/en/docs/DWARF-mini-Smart-Telescope-User-Manual
+
+● Fetch(https://dwarflab.com/pages/dwarflab-app-firmware-download)                                                                                            
+  ⎿  Received 305KB (200 OK)            
+
+● Web Search("DwarfLAB firmware release history Dwarf Mini 2025 2026")                                                                                        
+  ⎿  Did 1 search in 6s   
