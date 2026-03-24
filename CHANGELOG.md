@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1300 CST
+
+### Added
+- **Q: Is Stellar Studio available on Windows, Mac, or Linux?** — clarifies mobile-only availability; suggests desktop alternatives (PixInsight, Siril, APP, Lightroom/Photoshop) for users who prefer desktop post-processing (Section 10)
+
+---
+
 ## 2026-03-24 1200 CST
 
 ### Added
