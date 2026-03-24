@@ -8,6 +8,17 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1600 CST
+
+### Added
+- **Q: What is Alt-Az mode?** — explains altitude-azimuth mount, field rotation limitation, and when to use it vs EQ mode (Section 2)
+- **Q: What is EQ mode?** — covers polar alignment setup, when EQ mode is recommended vs required, 180s max exposure, and Panorama mode requirement (Section 2)
+
+### Changed
+- **Milky Way section** — added EQ mode recommendation, noting it is required for exposures 30s+, and that Panorama mode requires EQ mode (Section 7)
+
+---
+
 ## 2026-03-24 1500 CST
 
 ### Added

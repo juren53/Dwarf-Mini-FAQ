@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1500 CST*
+*Last updated: 2026-03-24 1600 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -56,6 +56,30 @@ No. The Dwarf Mini is a camera-based smart telescope. All viewing is done throug
 | Mount Type | Alt-azimuth, motorized |
 
 > **Note:** Specifications are subject to change. Always verify against the official DWARFLAB product page.
+
+**Q: What is Alt-Az mode?**
+Alt-Az (altitude-azimuth) is the Dwarf Mini's default operating mode, named after the two axes its motors move on:
+
+- **Altitude** — up and down (angle above the horizon)
+- **Azimuth** — left and right (compass direction)
+
+It is the simplest mount type to set up — just place the scope level and go. The drawback is **field rotation**: because the mount doesn't follow Earth's rotation axis, the image slowly rotates during long exposures. The DWARFLAB app compensates for this during live stacking, but for exposures beyond about 15 seconds the effect becomes noticeable. For short exposures and casual imaging, Alt-Az mode works well. For deep-sky imaging with longer exposures, EQ mode (see below) gives better results.
+
+**Q: What is EQ mode?**
+EQ mode (equatorial mode) is a software-guided setup that tilts the Dwarf Mini's mount so its rotation axis aligns with Earth's rotational axis (pointed toward Polaris in the northern hemisphere). This eliminates field rotation, allowing much longer individual exposures and sharper stacked results.
+
+**How to enter EQ mode:**
+1. Physically tilt the Dwarf Mini so it points toward Polaris (the North Star)
+2. Follow the alignment procedure in the DWARFLAB app to confirm polar alignment
+3. The app switches to EQ tracking mode automatically once aligned
+
+**When to use EQ mode:**
+- Exposures of **15 seconds or longer** — EQ mode is recommended
+- Exposures of **30 seconds or longer** — EQ mode is required by the app
+- **Astro mosaic / Panorama mode** — EQ mode is required
+- **Milky Way core imaging** — EQ mode gives significantly better results
+
+EQ mode supports exposures up to **180 seconds** on the Dwarf Mini (as of firmware February 2026). In Alt-Az mode the practical limit before field rotation degrades the image is considerably shorter.
 
 **Q: What is the battery life?**
 The Dwarf Mini has a built-in battery. Expected runtime varies by use case (motors running, Wi-Fi active, temperature) but is typically in the range of 3–4 hours of continuous operation. Cold weather reduces battery life noticeably.
@@ -260,10 +284,11 @@ The galactic core is in the direction of the constellation **Sagittarius**. Use 
 
 **Key tips:**
 - **Dark skies matter more for the Milky Way than almost any other target.** Light pollution washes out the faint star clouds quickly. Aim for Bortle class 4 or darker if possible.
+- **Use EQ mode** for Milky Way imaging. Exposures of 15 seconds and above benefit from EQ mode, and 30 seconds and above require it. The galactic core rewards longer exposures — EQ mode is the right choice here. See Section 2 for EQ mode setup details.
 - Tracking is essential — exposures long enough to reveal the Milky Way will show star trails without it. Make sure GoTo/tracking is active.
 - Shoot when the core is high in the sky (above 30°) to minimize atmospheric haze near the horizon.
 - Dew and humidity can fog the lens on warm summer nights — check the lens periodically during long sessions.
-- The Milky Way is a good candidate for Panorama mode if you want to capture a wider sweep than a single frame allows.
+- The Milky Way is a good candidate for Panorama mode if you want to capture a wider sweep than a single frame allows. Note that Panorama mode requires EQ mode.
 
 ---
 
@@ -453,4 +478,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1500 CST*
+*Last updated: 2026-03-24 1600 CST*
