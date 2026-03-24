@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1400 CST
+
+### Added
+- **Q: What is Sky Finder?** — explains the wide-angle target discovery feature, step-by-step usage, and notes it was added in V3.3.8 / V1.4.15.2 (February 2026) (Section 8)
+
+---
+
 ## 2026-03-24 1300 CST
 
 ### Added
