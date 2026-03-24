@@ -94,6 +94,7 @@ html = f'''<!DOCTYPE html>
 <div class="container">
 
   <h1>Dwarf Mini Smart Telescope &#8212; FAQ</h1>
+  <p class="timestamp"><em>Last updated: {timestamp}</em></p>
 
 {body_html}
 
