@@ -8,6 +8,16 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1900 CST
+
+### Added
+- **Section 6: Focusing** — new section (6 Q&A entries) covering autofocus, manual focus +/− controls, the Infinity (∞) button, updating the Auto Focus Position reference, autofocus troubleshooting, and the fixed-focus wide-angle lens
+
+### Changed
+- Renumbered former sections 6–15 to 7–16 to accommodate new Focusing section
+
+---
+
 ## 2026-03-24 1830 CST
 
 ### Fixed

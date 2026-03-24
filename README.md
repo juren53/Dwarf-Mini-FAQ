@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1830 CST*
+*Last updated: 2026-03-24 1900 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -16,16 +16,17 @@ A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 3. [Tripod & Mounting](#3-tripod--mounting)
 4. [Setup & First Use](#4-setup--first-use)
 5. [The Dwarf Lab App](#5-the-dwarf-lab-app)
-6. [Daytime Photography](#6-daytime-photography)
-7. [Astrophotography](#7-astrophotography)
-8. [GoTo & Tracking](#8-goto--tracking)
-9. [Image Capture & Stacking](#9-image-capture--stacking)
-10. [Stellar Studio & Infinity Lab](#10-stellar-studio--infinity-lab)
-11. [Calibration Frames](#11-calibration-frames)
-12. [Storing & Transferring Images](#12-storing--transferring-images)
-13. [Troubleshooting](#13-troubleshooting)
-14. [Tips & Best Practices](#14-tips--best-practices)
-15. [Resources & Community](#15-resources--community)
+6. [Focusing](#6-focusing)
+7. [Daytime Photography](#7-daytime-photography)
+8. [Astrophotography](#8-astrophotography)
+9. [GoTo & Tracking](#9-goto--tracking)
+10. [Image Capture & Stacking](#10-image-capture--stacking)
+11. [Stellar Studio & Infinity Lab](#11-stellar-studio--infinity-lab)
+12. [Calibration Frames](#12-calibration-frames)
+13. [Storing & Transferring Images](#13-storing--transferring-images)
+14. [Troubleshooting](#14-troubleshooting)
+15. [Tips & Best Practices](#15-tips--best-practices)
+16. [Resources & Community](#16-resources--community)
 
 ---
 
@@ -217,7 +218,42 @@ The official download and release history page is at [dwarflab.com/pages/dwarfla
 
 ---
 
-## 6. Daytime Photography
+## 6. Focusing
+
+**Q: Does the Dwarf Mini have autofocus?**
+Yes. The Dwarf Mini has a motorized focus system controlled entirely through the DWARFLAB app — there is no physical focus knob. Autofocus is triggered via the **AF button** in the app's focus panel. The button turns green while focusing and returns to white when focus is achieved.
+
+**Q: How do I trigger autofocus?**
+In the app's focus panel, tap the **Auto (AF)** button. In telephoto/daytime mode you can also double-tap the live view to trigger autofocus on that area. Note that autofocus cannot be triggered in Astro Mode — this is intentional to prevent disrupting a calibrated focus during an imaging session.
+
+**Q: How do I adjust focus manually?**
+Open the focus panel in the app and tap the **+** or **−** buttons to move the focus in or out. Tap to step slowly; press and hold to move faster. The app displays a real-time sharpness indicator — when stars appear smallest and brightest (or a distant daytime subject appears sharpest), focus is correct.
+
+**Q: What is the Infinity focus button?**
+The **Infinity (∞)** button in the focus panel returns the focus to the preset reference position used for astrophotography — the stored "infinity focus" point optimized for stars. Tapping it is the quickest way to get back to a good starting focus at the beginning of a night session.
+
+**Q: What is "Update Auto Focus Position" and when should I use it?**
+This setting lets you redefine the stored infinity focus reference point. If autofocus consistently produces slightly soft stars, or if the scope's focus has drifted over time, you can:
+
+1. Manually adjust focus until stars appear as sharp as possible
+2. Go to **Parameters → Settings → Update Auto Focus Position**
+3. Confirm — the new position is saved as the reference for future sessions
+
+This is a one-time calibration step, not something you need to do every session.
+
+**Q: Autofocus failed or won't engage. What should I do?**
+- Make sure your target is at least **5 metres away** — autofocus is not designed for close subjects and will fail on nearby objects.
+- In Astro Mode, autofocus is intentionally disabled. Switch to manual focus or use the Infinity button to return to the preset position.
+- If stars are consistently soft even after autofocus, use manual focus to dial in sharpness and then update the Auto Focus Position (see above).
+- If focus motor movement is erratic, restart the Dwarf Mini and try again.
+
+**Q: Can I focus the wide-angle lens?**
+No. The wide-angle lens on the Dwarf Mini has a fixed focal length — it is not motorized and cannot be focused. Autofocus and manual focus controls apply to the telephoto lens only.
+
+---
+
+## 7. Daytime Photography
+
 
 **Q: Can the Dwarf Mini be used during the day?**
 Yes. The Dwarf Mini works well as a daytime spotting scope / telephoto camera. It can photograph distant landscapes, wildlife, or other subjects.
@@ -230,7 +266,7 @@ During the day, use short exposures and lower gain to avoid overexposure. The ap
 
 ---
 
-## 7. Astrophotography
+## 8. Astrophotography
 
 **Q: What kinds of objects can the Dwarf Mini photograph?**
 The Dwarf Mini's wide field of view makes it best suited for:
@@ -294,7 +330,7 @@ The galactic core is in the direction of the constellation **Sagittarius**. Use 
 
 ---
 
-## 8. GoTo & Tracking
+## 9. GoTo & Tracking
 
 **Q: What is GoTo?**
 GoTo is the automatic slew feature — you select a target in the app, and the telescope motors move the scope to point at that target.
@@ -329,7 +365,7 @@ Sky Finder is particularly useful for beginners who aren't sure what is visible 
 
 ---
 
-## 9. Image Capture & Stacking
+## 10. Image Capture & Stacking
 
 **Q: What is live stacking?**
 Live stacking is the automatic combination of multiple exposures taken back-to-back. Each new frame is aligned and added to the previous frames, progressively building up a brighter, smoother image. The result improves continuously while the telescope keeps shooting.
@@ -345,7 +381,7 @@ The primary output is JPEG for processed/stacked images. Availability of RAW or 
 
 ---
 
-## 10. Stellar Studio & Infinity Lab
+## 11. Stellar Studio & Infinity Lab
 
 **Q: What is Infinity Lab?**
 Infinity Lab is DWARFLAB's built-in suite of post-processing tools, accessible directly from the album section of the DWARFLAB app. It brings three tools together under one roof:
@@ -395,7 +431,7 @@ No. Stellar Studio is a mobile-only app — iOS and Android. There is no desktop
 
 ---
 
-## 11. Calibration Frames
+## 12. Calibration Frames
 
 **Q: What are calibration frames?**
 Calibration frames are special images used to subtract noise and optical artifacts from your science (light) frames:
@@ -409,7 +445,7 @@ Support varies by firmware and app version. Check current DWARFLAB release notes
 
 ---
 
-## 12. Storing & Transferring Images
+## 13. Storing & Transferring Images
 
 **Q: Where are images saved?**
 Images are saved to the Dwarf Mini's internal storage. They can be transferred to your phone via the app.
@@ -422,7 +458,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 13. Troubleshooting
+## 14. Troubleshooting
 
 **Q: The app won't connect to the Dwarf Mini. What should I try?**
 1. Confirm the Dwarf Mini is powered on and the indicator light is showing a connected/ready state.
@@ -457,7 +493,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 14. Tips & Best Practices
+## 15. Tips & Best Practices
 
 - **Charge before every session.** Don't start a session with a partially charged battery.
 - **Update firmware.** DWARFLAB releases updates that improve GoTo accuracy, stacking quality, and app features. Stay current.
@@ -469,7 +505,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 15. Resources & Community
+## 16. Resources & Community
 
 - **DWARFLAB Official Website:** [https://www.dwarflab.com](https://www.dwarflab.com)
 - **DWARFLAB User Manual / Downloads:** Check the official site's support/download section
@@ -493,4 +529,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1830 CST*
+*Last updated: 2026-03-24 1900 CST*
