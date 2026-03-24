@@ -5,15 +5,310 @@ body {
   font-size: 18px;
   line-height: 1.75;
   color: #222;
-  background: #faf8f4;
+  background: #07090f;
   margin: 0;
   padding: 0;
 }
 
+/* ── Star field — layer 1: 200 small stars (1 px) ─────────────────────────── */
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  z-index: 0;
+  box-shadow:
+    457px 52px #fff,
+    1127px 502px #fff,
+    915px 286px #fff,
+    420px 1386px #fff,
+    2234px 179px #fff,
+    2419px 865px #fff,
+    131px 62px #fff,
+    384px 448px #fff,
+    953px 1035px #fff,
+    2466px 55px #fff,
+    2299px 408px #fff,
+    2233px 860px #fff,
+    903px 920px #fff,
+    2414px 570px #fff,
+    27px 1555px #fff,
+    654px 1430px #fff,
+    1732px 697px #fff,
+    1139px 319px #fff,
+    882px 1564px #fff,
+    1379px 210px #fff,
+    380px 779px #fff,
+    397px 736px #fff,
+    1409px 1237px #fff,
+    1084px 89px #fff,
+    1882px 1099px #fff,
+    512px 776px #fff,
+    323px 1131px #fff,
+    1201px 1288px #fff,
+    2534px 741px #fff,
+    2365px 394px #fff,
+    285px 94px #fff,
+    934px 1584px #fff,
+    1186px 164px #fff,
+    954px 207px #fff,
+    1557px 570px #fff,
+    1858px 1302px #fff,
+    1495px 334px #fff,
+    1517px 728px #fff,
+    859px 1373px #fff,
+    1094px 1438px #fff,
+    293px 1248px #fff,
+    701px 1094px #fff,
+    1003px 335px #fff,
+    1894px 778px #fff,
+    1106px 1311px #fff,
+    2282px 450px #fff,
+    1329px 1574px #fff,
+    230px 470px #fff,
+    132px 647px #fff,
+    1644px 549px #fff,
+    272px 433px #fff,
+    2324px 1471px #fff,
+    1289px 436px #fff,
+    2045px 811px #fff,
+    1880px 293px #fff,
+    1085px 286px #fff,
+    1011px 1526px #fff,
+    2300px 1104px #fff,
+    1077px 1530px #fff,
+    2395px 878px #fff,
+    2391px 818px #fff,
+    1483px 450px #fff,
+    567px 1044px #fff,
+    2022px 187px #fff,
+    193px 225px #fff,
+    627px 1286px #fff,
+    656px 1394px #fff,
+    1730px 1222px #fff,
+    261px 789px #fff,
+    1564px 1221px #fff,
+    1918px 1084px #fff,
+    1030px 1134px #fff,
+    48px 1394px #fff,
+    470px 1397px #fff,
+    2200px 1538px #fff,
+    1093px 1575px #fff,
+    1394px 229px #fff,
+    1203px 891px #fff,
+    648px 930px #fff,
+    14px 1479px #fff,
+    1079px 1026px #fff,
+    732px 1040px #fff,
+    436px 1281px #fff,
+    1223px 1309px #fff,
+    2080px 1248px #fff,
+    815px 314px #fff,
+    1532px 1562px #fff,
+    662px 1105px #fff,
+    2173px 2px #fff,
+    2454px 664px #fff,
+    2002px 40px #fff,
+    459px 744px #fff,
+    1260px 491px #fff,
+    238px 494px #fff,
+    2324px 162px #fff,
+    351px 1499px #fff,
+    1991px 142px #fff,
+    2182px 1569px #fff,
+    516px 263px #fff,
+    1947px 1126px #fff,
+    677px 543px #fff,
+    2162px 1243px #fff,
+    1734px 434px #fff,
+    2209px 1547px #fff,
+    824px 1461px #fff,
+    1277px 818px #fff,
+    1530px 898px #fff,
+    2120px 925px #fff,
+    496px 508px #fff,
+    921px 132px #fff,
+    1385px 44px #fff,
+    2410px 1135px #fff,
+    943px 1206px #fff,
+    903px 15px #fff,
+    291px 1450px #fff,
+    242px 469px #fff,
+    277px 65px #fff,
+    1354px 146px #fff,
+    2106px 488px #fff,
+    1141px 1371px #fff,
+    1989px 439px #fff,
+    2209px 271px #fff,
+    2339px 1181px #fff,
+    1937px 498px #fff,
+    1938px 834px #fff,
+    780px 194px #fff,
+    398px 1350px #fff,
+    1766px 726px #fff,
+    1735px 842px #fff,
+    1913px 1494px #fff,
+    222px 1380px #fff,
+    404px 125px #fff,
+    1650px 1492px #fff,
+    1390px 224px #fff,
+    1019px 393px #fff,
+    780px 1099px #fff,
+    1838px 288px #fff,
+    1729px 376px #fff,
+    1141px 948px #fff,
+    1024px 155px #fff,
+    1816px 1128px #fff,
+    402px 104px #fff,
+    2215px 31px #fff,
+    383px 1544px #fff,
+    969px 341px #fff,
+    1665px 995px #fff,
+    1972px 438px #fff,
+    1643px 121px #fff,
+    675px 777px #fff,
+    9px 800px #fff,
+    1087px 932px #fff,
+    1169px 867px #fff,
+    2277px 1356px #fff,
+    1994px 318px #fff,
+    778px 608px #fff,
+    892px 120px #fff,
+    2373px 1507px #fff,
+    2221px 125px #fff,
+    1285px 118px #fff,
+    206px 1197px #fff,
+    1953px 1030px #fff,
+    2176px 323px #fff,
+    233px 1041px #fff,
+    329px 381px #fff,
+    281px 1219px #fff,
+    279px 1383px #fff,
+    964px 827px #fff,
+    492px 1167px #fff,
+    1009px 1186px #fff,
+    2436px 82px #fff,
+    2537px 168px #fff,
+    1718px 1347px #fff,
+    2391px 1158px #fff,
+    2142px 648px #fff,
+    1069px 419px #fff,
+    1287px 489px #fff,
+    1088px 811px #fff,
+    537px 1376px #fff,
+    1229px 937px #fff,
+    1296px 1540px #fff,
+    298px 20px #fff,
+    1878px 1273px #fff,
+    2307px 205px #fff,
+    301px 1102px #fff,
+    874px 1037px #fff,
+    1087px 272px #fff,
+    1430px 141px #fff,
+    1001px 757px #fff,
+    1168px 324px #fff,
+    1795px 1113px #fff,
+    1240px 1253px #fff,
+    2167px 17px #fff,
+    2272px 614px #fff,
+    425px 276px #fff,
+    1084px 237px #fff,
+    439px 1521px #fff,
+    2267px 319px #fff,
+    1116px 578px #fff,
+    2478px 432px #fff,
+    1405px 417px #fff;
+}
+
+/* ── Star field — layer 2: 60 medium stars (2 px) ────────────────────────── */
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: transparent;
+  z-index: 0;
+  box-shadow:
+    297px 372px rgba(255,255,255,0.85),
+    1680px 667px rgba(255,255,255,0.85),
+    789px 473px rgba(255,255,255,0.85),
+    2001px 715px rgba(255,255,255,0.85),
+    42px 830px rgba(255,255,255,0.85),
+    2110px 660px rgba(255,255,255,0.85),
+    1629px 1077px rgba(255,255,255,0.85),
+    1939px 280px rgba(255,255,255,0.85),
+    1750px 1065px rgba(255,255,255,0.85),
+    2124px 676px rgba(255,255,255,0.85),
+    9px 1249px rgba(255,255,255,0.85),
+    105px 1373px rgba(255,255,255,0.85),
+    580px 979px rgba(255,255,255,0.85),
+    1476px 364px rgba(255,255,255,0.85),
+    1437px 504px rgba(255,255,255,0.85),
+    2008px 791px rgba(255,255,255,0.85),
+    1335px 654px rgba(255,255,255,0.85),
+    40px 1426px rgba(255,255,255,0.85),
+    1637px 697px rgba(255,255,255,0.85),
+    275px 1486px rgba(255,255,255,0.85),
+    1464px 1429px rgba(255,255,255,0.85),
+    2091px 242px rgba(255,255,255,0.85),
+    810px 85px rgba(255,255,255,0.85),
+    2447px 666px rgba(255,255,255,0.85),
+    2227px 1156px rgba(255,255,255,0.85),
+    2255px 1213px rgba(255,255,255,0.85),
+    1390px 80px rgba(255,255,255,0.85),
+    970px 1160px rgba(255,255,255,0.85),
+    405px 785px rgba(255,255,255,0.85),
+    2118px 1360px rgba(255,255,255,0.85),
+    13px 1419px rgba(255,255,255,0.85),
+    894px 682px rgba(255,255,255,0.85),
+    1012px 473px rgba(255,255,255,0.85),
+    2214px 920px rgba(255,255,255,0.85),
+    548px 1279px rgba(255,255,255,0.85),
+    1780px 473px rgba(255,255,255,0.85),
+    1979px 1598px rgba(255,255,255,0.85),
+    1127px 555px rgba(255,255,255,0.85),
+    2281px 965px rgba(255,255,255,0.85),
+    616px 1399px rgba(255,255,255,0.85),
+    1634px 1469px rgba(255,255,255,0.85),
+    2423px 1129px rgba(255,255,255,0.85),
+    1595px 1557px rgba(255,255,255,0.85),
+    2120px 169px rgba(255,255,255,0.85),
+    611px 895px rgba(255,255,255,0.85),
+    409px 1356px rgba(255,255,255,0.85),
+    242px 279px rgba(255,255,255,0.85),
+    388px 1580px rgba(255,255,255,0.85),
+    1413px 1338px rgba(255,255,255,0.85),
+    748px 1209px rgba(255,255,255,0.85),
+    488px 1279px rgba(255,255,255,0.85),
+    1229px 1470px rgba(255,255,255,0.85),
+    1903px 909px rgba(255,255,255,0.85),
+    844px 321px rgba(255,255,255,0.85),
+    412px 399px rgba(255,255,255,0.85),
+    2308px 803px rgba(255,255,255,0.85),
+    645px 808px rgba(255,255,255,0.85),
+    498px 1593px rgba(255,255,255,0.85),
+    268px 787px rgba(255,255,255,0.85),
+    2374px 571px rgba(255,255,255,0.85);
+}
+
+/* ── Content container (floats over the star field) ──────────────────────── */
+
 .container {
+  position: relative;
+  z-index: 1;
   max-width: 820px;
   margin: 0 auto;
   padding: 60px 40px;
+  background: #faf8f4;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
 }
 
 /* ── Page title ───────────────────────────────────────────────────────────── */
@@ -87,12 +382,6 @@ ul, ol {
 
 li {
   margin-bottom: 0.4em;
-}
-
-/* Table of Contents — first ol on the page */
-nav ol,
-.toc ol {
-  list-style: decimal;
 }
 
 /* ── Blockquotes (Note / Tip callouts) ────────────────────────────────────── */
