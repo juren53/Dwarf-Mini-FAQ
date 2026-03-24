@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1100 CST
+
+### Added
+- **Q: Can the Dwarf Mini photograph comets?** — covers comet GoTo support, ephemeris-based positioning, the V3.3.1 comet coordinate bug fix, and suitability of wide FOV for comet tails (Section 7)
+
+---
+
 ## 2026-03-24 0900 CST
 
 ### Added

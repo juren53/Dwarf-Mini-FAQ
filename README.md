@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1030 CST*
+*Last updated: 2026-03-24 1100 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -237,6 +237,9 @@ The Dwarf Mini can image from light-polluted skies. Bright targets like the Moon
 **Q: Should I let the telescope cool down before imaging?**
 Thermal equilibration is less critical for the Dwarf Mini than for large reflectors, but letting the unit sit outside for 10–15 minutes before imaging can reduce thermal noise in the camera.
 
+**Q: Can the Dwarf Mini photograph comets?**
+Yes. Comets are supported as GoTo targets in the DWARFLAB app. Because comets move relative to the background stars, their coordinates change over time — the app uses current ephemeris data to calculate the comet's position. A bug affecting incorrect comet GoTo coordinates was fixed in Android app V3.3.1 B528 (2025-11-12), so make sure your app is up to date if you plan to image comets. The Dwarf Mini's wide field of view is actually well suited for bright comets, which often have extended tails that benefit from a wider frame.
+
 ---
 
 ## 8. GoTo & Tracking
@@ -378,4 +381,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1030 CST*
+*Last updated: 2026-03-24 1100 CST*
