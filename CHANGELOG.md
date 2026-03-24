@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1700 CST
+
+### Fixed
+- **Milky Way key tips list not rendering in HTML** — added missing blank line between `**Key tips:**` heading and bullet list; pandoc requires a blank line to recognize the list
+
+---
+
 ## 2026-03-24 1600 CST
 
 ### Added
