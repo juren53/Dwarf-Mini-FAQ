@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1100 CST*
+*Last updated: 2026-03-24 1200 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -20,11 +20,12 @@ A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 7. [Astrophotography](#7-astrophotography)
 8. [GoTo & Tracking](#8-goto--tracking)
 9. [Image Capture & Stacking](#9-image-capture--stacking)
-10. [Calibration Frames](#10-calibration-frames)
-11. [Storing & Transferring Images](#11-storing--transferring-images)
-12. [Troubleshooting](#12-troubleshooting)
-13. [Tips & Best Practices](#13-tips--best-practices)
-14. [Resources & Community](#14-resources--community)
+10. [Stellar Studio](#10-stellar-studio)
+11. [Calibration Frames](#11-calibration-frames)
+12. [Storing & Transferring Images](#12-storing--transferring-images)
+13. [Troubleshooting](#13-troubleshooting)
+14. [Tips & Best Practices](#14-tips--best-practices)
+15. [Resources & Community](#15-resources--community)
 
 ---
 
@@ -283,7 +284,41 @@ The primary output is JPEG for processed/stacked images. Availability of RAW or 
 
 ---
 
-## 10. Calibration Frames
+## 10. Stellar Studio
+
+**Q: What is Stellar Studio?**
+Stellar Studio is a companion app made by DWARFLAB for post-processing the images captured by your Dwarf Mini (and other DWARF telescopes). While the main DWARFLAB app handles live capture and in-the-field stacking, Stellar Studio lets you revisit your saved data later on your phone or tablet — reprocessing, adjusting, and exporting final images at your own pace.
+
+**Q: Is Stellar Studio the same as the DWARFLAB app?**
+No. They are two separate apps:
+- **DWARFLAB app** — connects to the telescope, controls the hardware, runs live stacking sessions in the field
+- **Stellar Studio** — a post-processing app you use after the session, on data already saved to your device or transferred from the scope
+
+You don't need Stellar Studio to use the Dwarf Mini, but it gives you significantly more control over the final result.
+
+**Q: Where do I get Stellar Studio?**
+Stellar Studio is available as a separate download from the Apple App Store and Google Play Store. Search for **"Stellar Studio DWARFLAB"**.
+
+**Q: What can Stellar Studio do that the DWARFLAB app cannot?**
+Stellar Studio is focused on post-processing flexibility:
+- Re-stack or re-process previously captured frames
+- Adjust stretch, brightness, contrast, and color balance after the fact
+- Process Sun and Moon data (added in V1.4.12.1 / V1.0.22.1, January 2026)
+- Apply Star Trail processing to compatible data sets (added February 2026)
+- Access detailed photo and video metadata in the album view
+
+**Q: Do I need to be connected to the telescope to use Stellar Studio?**
+No. Stellar Studio works entirely on data already stored on your device. You can use it at home, days after a session, with no connection to the scope required.
+
+**Q: My Stellar Studio session was interrupted. Did I lose my data?**
+Not necessarily. As of V1.4.12.1 (January 2026), if an astronomy capture is interrupted unexpectedly, the current partial results remain accessible in the App Album. Check there before assuming the data is lost.
+
+**Q: Which version of Stellar Studio should I have?**
+Keep Stellar Studio updated. See Section 5 for a recent version history. As of early 2026, V1.4.15.2 (Android) / V1.0.25.2 (iOS) is current.
+
+---
+
+## 11. Calibration Frames
 
 **Q: What are calibration frames?**
 Calibration frames are special images used to subtract noise and optical artifacts from your science (light) frames:
@@ -297,7 +332,7 @@ Support varies by firmware and app version. Check current DWARFLAB release notes
 
 ---
 
-## 11. Storing & Transferring Images
+## 12. Storing & Transferring Images
 
 **Q: Where are images saved?**
 Images are saved to the Dwarf Mini's internal storage. They can be transferred to your phone via the app.
@@ -310,7 +345,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 12. Troubleshooting
+## 13. Troubleshooting
 
 **Q: The app won't connect to the Dwarf Mini. What should I try?**
 1. Confirm the Dwarf Mini is powered on and the indicator light is showing a connected/ready state.
@@ -345,7 +380,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 13. Tips & Best Practices
+## 14. Tips & Best Practices
 
 - **Charge before every session.** Don't start a session with a partially charged battery.
 - **Update firmware.** DWARFLAB releases updates that improve GoTo accuracy, stacking quality, and app features. Stay current.
@@ -357,7 +392,7 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 
 ---
 
-## 14. Resources & Community
+## 15. Resources & Community
 
 - **DWARFLAB Official Website:** [https://www.dwarflab.com](https://www.dwarflab.com)
 - **DWARFLAB User Manual / Downloads:** Check the official site's support/download section
@@ -381,4 +416,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1100 CST*
+*Last updated: 2026-03-24 1200 CST*

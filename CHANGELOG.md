@@ -8,6 +8,16 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1200 CST
+
+### Added
+- **Section 10: Stellar Studio** — new dedicated section (7 Q&A entries) covering what Stellar Studio is, how it differs from the DWARFLAB app, where to get it, key features, offline use, interrupted session recovery, and current version
+
+### Changed
+- Renumbered sections 10–14 to 11–15 to accommodate new Stellar Studio section
+
+---
+
 ## 2026-03-24 1100 CST
 
 ### Added
