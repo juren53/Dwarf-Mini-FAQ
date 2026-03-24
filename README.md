@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1000 CST*
+*Last updated: 2026-03-24 1030 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -175,18 +175,18 @@ No. The app is required to operate the Dwarf Mini.
 **Q: Where can I find the DWARFLAB app and firmware version history?**
 The official download and release history page is at [dwarflab.com/pages/dwarflab-app-firmware-download](https://dwarflab.com/pages/dwarflab-app-firmware-download). Recent releases as of early 2026:
 
-| Platform | Version | Date |
-|---|---|---|
-| Android | V3.3.8 | 2026-02-10 |
-| Android | V3.3.5 B564 | 2025-12-31 |
-| Android | V3.3.1 B528 | 2025-11-12 |
-| iOS | V3.3.9 B8 | 2026-02-24 |
-| iOS | V3.3.1 B8 | 2025-11-12 |
-| Stellar Studio (Android) | V1.4.15.2 | 2026-02-10 |
-| Stellar Studio (iOS) | V1.0.25.2 | 2026-02-10 |
-| Stellar Studio (Android) | V1.4.12.1 | 2026-01-22 |
-| Stellar Studio (iOS) | V1.0.22.1 | 2026-01-22 |
-| Stellar Studio | V1.4.7.5 | 2025-11-06 |
+| Platform | Version | Date | Notes |
+|---|---|---|---|
+| Android | V3.3.8 | 2026-02-10 | Sky Finder feature; Star Trail mode; location tag in JPEG metadata; 1×/2× crop for Sun/Moon |
+| Android | V3.3.5 B564 | 2025-12-31 | Nearby Devices feature for quick switching between DWARF units; continuous autofocus toggle for DWARF 3 |
+| Android | V3.3.1 B528 | 2025-11-12 | New user onboarding guide; improved joystick speed control; fixed comet GoTo coordinates |
+| iOS | V3.3.9 B8 | 2026-02-24 | Bug fixes and stability improvements |
+| iOS | V3.3.1 B8 | 2025-11-12 | New user onboarding guide; improved joystick speed control |
+| Stellar Studio (Android) | V1.4.15.2 | 2026-02-10 | Star Trail mode; Sky Finder; panorama manual framing |
+| Stellar Studio (iOS) | V1.0.25.2 | 2026-02-10 | Star Trail mode; Sky Finder; improved Sun & Moon tracking |
+| Stellar Studio (Android) | V1.4.12.1 | 2026-01-22 | Nearby Devices feature; Sun & Moon data processing; interrupted session recovery |
+| Stellar Studio (iOS) | V1.0.22.1 | 2026-01-22 | Sun & Moon data processing support |
+| Stellar Studio | V1.4.7.5 | 2025-11-06 | New dark frame management; single device connection only; bug fixes |
 
 > **Note:** Not all release notes distinguish Dwarf Mini-specific changes from Dwarf 2/3 changes. Always check the official page for the latest version and full release notes.
 
@@ -378,4 +378,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1000 CST*
+*Last updated: 2026-03-24 1030 CST*
