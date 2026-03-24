@@ -4,6 +4,7 @@ Build docs/index.html from README.md.
 README.md is the single source of truth — run this after any edits.
 """
 
+import html as html_module
 import subprocess
 import re
 from pathlib import Path
@@ -52,6 +53,27 @@ result = subprocess.run(
     input=body_md.encode('utf-8'), capture_output=True, check=True
 )
 body_html = result.stdout.decode('utf-8').strip()
+
+# ── Fix heading IDs to match GitHub-style anchors used in the TOC ────────────
+# Pandoc strips leading "N. " from IDs and handles & differently from GitHub.
+# GitHub's scheme: lowercase, spaces→hyphens, remove non-[a-z0-9-].
+# This makes the TOC links (written for GitHub) work in the HTML too.
+def github_id(heading_text):
+    text = heading_text.lower()
+    text = re.sub(r'\s+', '-', text)   # all whitespace (incl. newlines) → hyphen
+    text = re.sub(r'[^a-z0-9-]', '', text)
+    return text
+
+def fix_heading_ids(h):
+    def replacer(m):
+        tag     = m.group(1)          # e.g. h2
+        content = m.group(2)          # inner HTML of the heading
+        plain   = html_module.unescape(re.sub(r'<[^>]+>', '', content))
+        new_id  = github_id(plain)
+        return f'<{tag} id="{new_id}">{content}</{tag}>'
+    return re.sub(r'<(h[2-6])[^>]*>(.*?)</\1>', replacer, h, flags=re.DOTALL)
+
+body_html = fix_heading_ids(body_html)
 
 # Indent every line by two spaces to match the surrounding HTML
 body_html = '\n'.join(
