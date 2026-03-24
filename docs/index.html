@@ -10,7 +10,7 @@
 <div class="container">
 
   <h1>Dwarf Mini Smart Telescope &#8212; FAQ</h1>
-  <p class="timestamp"><em>Last updated: 2026-03-24 0613 CST</em></p>
+  <p class="timestamp"><em>Last updated: 2026-03-24 0721 CST</em></p>
 
   <p>A community-maintained FAQ for the <strong>Dwarf Mini Smart
   Telescope</strong> by DWARFLAB.</p>
@@ -767,20 +767,68 @@
   are special images used to subtract noise and optical artifacts from
   your science (light) frames:</p>
   <ul>
-  <li><strong>Dark frames:</strong> Images taken with the lens covered, at
+  <li><strong>Dark frames:</strong> Images taken with a covered sensor at
   the same exposure/gain as your light frames. They capture thermal noise
   and hot pixels.</li>
-  <li><strong>Flat frames:</strong> Images of a uniformly lit surface
-  (e.g., a white card in daylight). They correct for vignetting and
-  dust.</li>
-  <li><strong>Bias frames:</strong> Very short exposures that capture read
-  noise.</li>
+  <li><strong>Flat frames:</strong> Images of a uniformly lit surface.
+  They correct for vignetting and dust shadows.</li>
+  <li><strong>Bias frames:</strong> Very short exposures that capture the
+  camera’s base read noise.</li>
   </ul>
   <p><strong>Q: Does the Dwarf Mini support calibration frames?</strong>
-  Support varies by firmware and app version. Check current DWARFLAB
-  release notes. Even if manual calibration frame workflows are not fully
-  supported in-app, the dark frames the onboard processor uses may be
-  applied automatically.</p>
+  Yes — all three types are supported, though the level of user control
+  differs for each:</p>
+  <table>
+  <colgroup>
+  <col style="width: 33%" />
+  <col style="width: 33%" />
+  <col style="width: 33%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th>Frame Type</th>
+  <th>Supported?</th>
+  <th>How?</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td><strong>Dark</strong></td>
+  <td>Yes — automatic</td>
+  <td>Auto-captured via built-in dark filter in the integrated filter
+  wheel</td>
+  </tr>
+  <tr class="even">
+  <td><strong>Flat</strong></td>
+  <td>Yes — factory pre-loaded</td>
+  <td>Calibrated per device at the factory; user capture in
+  development</td>
+  </tr>
+  <tr class="odd">
+  <td><strong>Bias</strong></td>
+  <td>Yes — factory pre-loaded</td>
+  <td>Calibrated per device at the factory; user capture in
+  development</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Q: Do I need to shoot my own dark frames?</strong> No. The
+  Dwarf Mini has a built-in dark filter in its integrated filter wheel. It
+  automatically captures dark frames as part of each imaging session —
+  thermal noise suppression is handled for you without any extra
+  steps.</p>
+  <p><strong>Q: Do I need to shoot my own flat or bias frames?</strong> No
+  — for most users. The Dwarf Mini ships with factory-calibrated flat and
+  bias frames loaded per device. Because the optical system is fixed, the
+  factory data remains valid over time. In-app user management of flat and
+  bias frames is still under development and will be added in a future
+  firmware update.</p>
+  <p><strong>Q: Can I use the factory calibration files in desktop
+  software like Siril or PixInsight?</strong> Yes. The factory calibration
+  files are stored on the Dwarf Mini as <code>CALI_FRAME</code> files and
+  can be pulled directly off the device. These can be used as master
+  flat/bias frames in external post-processing software — a useful
+  workaround until full user-managed calibration is available in-app.</p>
   <hr />
   <h2 id="13-storing--transferring-images">13. Storing &amp; Transferring
   Images</h2>
@@ -884,7 +932,7 @@
   app updates are released. Always verify critical details against
   official DWARFLAB documentation.</em></p>
 
-  <p class="timestamp"><em>Last updated: 2026-03-24 0613 CST</em></p>
+  <p class="timestamp"><em>Last updated: 2026-03-24 0721 CST</em></p>
 
 </div>
 </body>

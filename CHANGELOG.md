@@ -8,6 +8,17 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 0721 CST
+
+### Changed
+- **Section 12: Calibration Frames** — fully rewritten with accurate Dwarf Mini-specific detail:
+  - Dark frames: automatic via built-in filter wheel dark filter
+  - Flat/Bias frames: factory pre-loaded per device; user capture in development
+  - Added summary table (Dark/Flat/Bias support status)
+  - Added Q&A on accessing `CALI_FRAME` files for use in Siril, PixInsight, etc.
+
+---
+
 ## 2026-03-24 1900 CST
 
 ### Added
