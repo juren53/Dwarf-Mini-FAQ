@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1200 CST*
+*Last updated: 2026-03-24 1300 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -316,6 +316,9 @@ Not necessarily. As of V1.4.12.1 (January 2026), if an astronomy capture is inte
 **Q: Which version of Stellar Studio should I have?**
 Keep Stellar Studio updated. See Section 5 for a recent version history. As of early 2026, V1.4.15.2 (Android) / V1.0.25.2 (iOS) is current.
 
+**Q: Is Stellar Studio available on Windows, Mac, or Linux?**
+No. Stellar Studio is a mobile-only app — iOS and Android. There is no desktop version. Users who prefer desktop post-processing typically export their stacked images from the DWARFLAB app and use third-party tools such as **PixInsight**, **Siril**, **Astro Pixel Processor**, or **Adobe Lightroom/Photoshop** for further processing on a computer.
+
 ---
 
 ## 11. Calibration Frames
@@ -416,4 +419,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1200 CST*
+*Last updated: 2026-03-24 1300 CST*
