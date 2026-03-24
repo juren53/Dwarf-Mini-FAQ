@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-24 1830 CST
+
+### Fixed
+- **Pano Weave clarified as definitively unavailable on Dwarf Mini** — updated Infinity Lab table from "not confirmed" to "No — DWARF 3 only"; added hardware explanation (single-camera vs dual-camera system) per official app v3.3.5 release notes
+
+---
+
 ## 2026-03-24 1800 CST
 
 ### Added
