@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1600 CST*
+*Last updated: 2026-03-24 1630 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -288,6 +288,7 @@ The galactic core is in the direction of the constellation **Sagittarius**. Use 
 - Tracking is essential — exposures long enough to reveal the Milky Way will show star trails without it. Make sure GoTo/tracking is active.
 - Shoot when the core is high in the sky (above 30°) to minimize atmospheric haze near the horizon.
 - Dew and humidity can fog the lens on warm summer nights — check the lens periodically during long sessions.
+- **Plan for battery life.** A quality Milky Way session — stacking hundreds of frames at 15–30 seconds each — can easily run 2–3 hours or more, which will exceed the Dwarf Mini's built-in battery. Bring a USB power bank with sufficient capacity and connect it to the Dwarf Mini to keep the session running.
 - The Milky Way is a good candidate for Panorama mode if you want to capture a wider sweep than a single frame allows. Note that Panorama mode requires EQ mode.
 
 ---
@@ -478,4 +479,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1600 CST*
+*Last updated: 2026-03-24 1630 CST*
