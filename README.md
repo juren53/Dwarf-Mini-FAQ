@@ -183,7 +183,7 @@ The DWARFLAB app is the primary interface for the Dwarf Mini. It provides:
 - Battery and storage status
 
 **Q: What do the on-screen icons and controls mean?**
-The app UI changes with firmware and app updates. General areas of the screen include:
+The app UI changes and evolves with firmware and app updates. General areas of the screen include:
 
 - **Top bar:** Connection status, battery level, storage indicator
 - **Main view:** Live image feed from the telescope
