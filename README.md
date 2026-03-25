@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1230 CST*
+*Last updated: 2026-03-24 1915 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -214,7 +214,7 @@ The official download and release history page is at [dwarflab.com/pages/dwarfla
 | Stellar Studio (iOS) | V1.0.22.1 | 2026-01-22 | Sun & Moon data processing support |
 | Stellar Studio | V1.4.7.5 | 2025-11-06 | New dark frame management; single device connection only; bug fixes |
 
-> **Note:** Not all release notes distinguish Dwarf Mini-specific changes from Dwarf 2/3 changes. Always check the official page for the latest version and full release notes.
+> **Note:** Not all release notes distinguish Dwarf Mini-specific changes from Dwarf 2/3 changes. Always check the [DWARFLAB App & Firmware Download page](https://dwarflab.com/pages/dwarflab-app-firmware-download) for the latest version and full release notes.
 
 ---
 
@@ -558,4 +558,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1230 CST*
+*Last updated: 2026-03-24 1915 CST*
