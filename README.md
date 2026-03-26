@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-24 1915 CST*
+*Last updated: 2026-03-26 1236 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -335,6 +335,26 @@ The galactic core is in the direction of the constellation **Sagittarius**. Use 
 **Q: What is GoTo?**
 GoTo is the automatic slew feature — you select a target in the app, and the telescope motors move the scope to point at that target.
 
+**Q: How does the telescope know where it is pointing and how to move to the next target?**
+The Dwarf Mini uses several inputs working together to determine its orientation and navigate the sky:
+
+**1. Location & time (from your phone)**
+Your phone's GPS provides the telescope's geographic coordinates (latitude and longitude). Combined with the current date and time, the app calculates the precise position of any celestial object above your location using standard astronomical formulas. This tells the scope *where* a target should be.
+
+**2. Initial orientation (IMU)**
+The Dwarf Mini contains an onboard **IMU** (inertial measurement unit) — a sensor that measures tilt and orientation. When you power on the scope on a level surface, the IMU establishes a baseline: it knows which direction is "down" (gravity) and uses the compass to determine north. From this it calculates its starting altitude and azimuth.
+
+**3. Motor position tracking**
+Once powered on, the control system tracks every step the stepper motors take. It always knows how far it has rotated from its starting position, and from that can calculate where it is currently pointing.
+
+**4. GoTo calculation**
+When you select a target, the app calculates the difference between where the scope is currently pointing and where the target is in the sky, then drives the motors the exact number of steps needed to close that gap.
+
+**5. Plate solving (accuracy correction)**
+After a GoTo slew, the camera takes a short exposure and compares the star pattern against a built-in star catalog — a process called **plate solving**. This tells the system precisely where the scope is *actually* pointing (not just where it thinks it's pointing), correcting for any small errors in initial orientation or motor steps. Subsequent GoTo slews benefit from this corrected reference.
+
+**In short:** GPS + time → where the target is. IMU + motor tracking → where the scope is pointing. Plate solving → fine correction. All of this happens automatically.
+
 **Q: How does the Dwarf Mini know where to point?**
 The app uses your phone's GPS (or manually entered location) combined with the current date/time to calculate the position of objects in the sky. The Dwarf Mini's motors then move to the calculated coordinates.
 
@@ -558,4 +578,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-24 1915 CST*
+*Last updated: 2026-03-26 1236 CST*
