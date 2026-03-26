@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-26 1804 CST
+
+### Changed
+- **Q: What is the Dwarf Mini Smart Telescope?** — expanded to emphasize the three-part system (hardware + smartphone + app), and that the phone is an active essential component, not just a remote control (Section 1)
+
+---
+
 ## 2026-03-26 1236 CST
 
 ### Added

@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-26 1236 CST*
+*Last updated: 2026-03-26 1804 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -34,6 +34,14 @@ A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
 **Q: What is the Dwarf Mini Smart Telescope?**
 The Dwarf Mini is a compact, automated smart telescope made by DWARFLAB. It combines a motorized alt-azimuth mount, a camera, and onboard Wi-Fi into a single portable unit. It is controlled entirely through the DWARFLAB smartphone app — there is no eyepiece. Images are captured, stacked, and displayed live on your phone.
+
+It is important to understand from the outset that the Dwarf Mini is not a standalone device — it is a **telescope system** made up of three equal partners:
+
+- **The Dwarf Mini hardware** — the optics, motors, camera, battery, and Wi-Fi
+- **Your smartphone** — provides GPS location, date/time, processing power, display, and user interface
+- **The DWARFLAB app** — the brain that ties everything together: GoTo calculations, camera control, live stacking, image management, and firmware updates
+
+Your phone is not just a remote control — it is an essential, active component of the system. A well-maintained phone (charged, GPS enabled, up-to-date app) is just as important as the telescope itself. Many common problems users encounter — missed GoTo targets, connection issues, poor image results — trace back to the phone side of the equation rather than the hardware.
 
 **Q: How is the Dwarf Mini different from the Dwarf II or Dwarf 3?**
 The Dwarf Mini is DWARFLAB's smallest and most affordable model. Compared to the Dwarf II and Dwarf 3, it has a shorter focal length, a smaller aperture, and a more compact form factor. It is well suited for wide-field astrophotography and daytime photography, but is less suited for small planetary detail or faint deep-sky objects that benefit from longer focal lengths.
@@ -578,4 +586,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-26 1236 CST*
+*Last updated: 2026-03-26 1804 CST*
