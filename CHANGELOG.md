@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-26 1236 CST
+
+### Added
+- **Q: How does the telescope know where it is pointing and how to move to the next target?** — explains the full navigation stack: GPS/time, IMU, motor tracking, GoTo calculation, and plate solving (Section 9)
+
+---
+
 ## 2026-03-24 1230 CST
 
 ### Added
