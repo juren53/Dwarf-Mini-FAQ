@@ -41,7 +41,7 @@ It is important to understand from the outset that the Dwarf Mini is not a stand
 - **Your smartphone** — provides GPS location, date/time, processing power, display, and user interface
 - **The DWARFLAB app** — the brain that ties everything together: GoTo calculations, camera control, live stacking, image management, and firmware updates
 
-Your phone is not just a remote control — it is an essential, active component of the system. A well-maintained phone (charged, GPS enabled, up-to-date app, and enough storage for image downloads) can be just as important as the telescope itself. Many common problems users encounter — missed GoTo targets, connection issues, poor image results — trace back to the phone side of the equation rather than the hardware.
+Your phone is not just a remote control — it is an essential, active component of the system. A well-maintained phone (charged, GPS enabled, up-to-date app, enough storage for image downloads, and with background apps closed to free up memory and processing power) is just as important as the telescope itself. Many common problems users encounter — missed GoTo targets, connection issues, poor image results — trace back to the phone side of the equation rather than the hardware.
 
 **Q: How is the Dwarf Mini different from the Dwarf II or Dwarf 3?**
 The Dwarf Mini is DWARFLAB's smallest and most affordable model. Compared to the Dwarf II and Dwarf 3, it has a shorter focal length, a smaller aperture, and a more compact form factor. It is well suited for wide-field astrophotography and daytime photography, but is less suited for small planetary detail or faint deep-sky objects that benefit from longer focal lengths.
