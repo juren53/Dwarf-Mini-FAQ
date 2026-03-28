@@ -60,8 +60,8 @@ body_html = result.stdout.decode('utf-8').strip()
 # This makes the TOC links (written for GitHub) work in the HTML too.
 def github_id(heading_text):
     text = heading_text.lower()
-    text = re.sub(r'\s+', '-', text)   # all whitespace (incl. newlines) → hyphen
-    text = re.sub(r'[^a-z0-9-]', '', text)
+    text = re.sub(r'[^a-z0-9\s-]', '', text)  # remove special chars first
+    text = re.sub(r'\s+', '-', text.strip())   # collapse whitespace → single hyphen
     return text
 
 def fix_heading_ids(h):
