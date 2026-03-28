@@ -8,6 +8,14 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-28 0853 CST
+
+### Fixed
+- **All TOC anchor links containing `&` were dead on GitHub** — GitHub's markdown renderer collapses spaces around `&` to a single hyphen; updated 9 TOC anchors from double-hyphen (`--`) to single-hyphen (`-`)
+- **`build-html.py` anchor generation updated** to match GitHub's algorithm (remove special chars first, then collapse `\s+` to single hyphen); HTML page TOC links now consistent with GitHub rendered README
+
+---
+
 ## 2026-03-28 0841 CST
 
 ### Fixed

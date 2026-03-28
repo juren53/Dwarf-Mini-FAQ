@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-28 0841 CST*
+*Last updated: 2026-03-28 0853 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -12,21 +12,21 @@ A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 ## Table of Contents
 
 1. [What Is the Dwarf Mini?](#1-what-is-the-dwarf-mini)
-2. [Hardware & Specifications](#2-hardware--specifications)
-3. [Tripod & Mounting](#3-tripod--mounting)
-4. [Setup & First Use](#4-setup--first-use)
+2. [Hardware & Specifications](#2-hardware-specifications)
+3. [Tripod & Mounting](#3-tripod-mounting)
+4. [Setup & First Use](#4-setup-first-use)
 5. [The Dwarf Lab App](#5-the-dwarf-lab-app)
 6. [Focusing](#6-focusing)
 7. [Daytime Photography](#7-daytime-photography)
 8. [Astrophotography](#8-astrophotography)
-9. [GoTo & Tracking](#9-goto--tracking)
-10. [Image Capture & Stacking](#10-image-capture--stacking)
-11. [Stellar Studio & Infinity Lab](#11-stellar-studio--infinity-lab)
+9. [GoTo & Tracking](#9-goto-tracking)
+10. [Image Capture & Stacking](#10-image-capture-stacking)
+11. [Stellar Studio & Infinity Lab](#11-stellar-studio-infinity-lab)
 12. [Calibration Frames](#12-calibration-frames)
-13. [Storing & Transferring Images](#13-storing--transferring-images)
+13. [Storing & Transferring Images](#13-storing-transferring-images)
 14. [Troubleshooting](#14-troubleshooting)
-15. [Tips & Best Practices](#15-tips--best-practices)
-16. [Resources & Community](#16-resources--community)
+15. [Tips & Best Practices](#15-tips-best-practices)
+16. [Resources & Community](#16-resources-community)
 
 ---
 
@@ -586,4 +586,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-28 0841 CST*
+*Last updated: 2026-03-28 0853 CST*
