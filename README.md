@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-27 0330 CST*
+*Last updated: 2026-03-28 0841 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -106,23 +106,23 @@ The Dwarf Mini does not ship with a tripod, DwarfLab has a nice compact tabletop
 **Q: What is the mounting thread size on the Dwarf Mini?**
 The Dwarf Mini uses a standard **1/4"-20 UNC** threaded socket on its base — the same thread used by most cameras and camera accessories. This makes it compatible with a wide range of tripods, adapters, and ball heads.
 
-**Q: How do I attach the Dwarf Mini to the included tripod?**
+**Q: How do I attach the Dwarf Mini to a tripod?**
 Align the tripod's center stud with the 1/4"-20 socket on the bottom of the scope and turn clockwise until snug. Finger-tight is sufficient — do not overtighten.
 
 **Q: Does the Dwarf Mini need to be level?**
 Yes, and this matters more than it might seem. The Dwarf Mini calculates GoTo pointing positions using an alt-azimuth coordinate system that assumes a level base. A significantly tilted unit will cause GoTo slews to consistently miss targets. Set the tripod on a flat surface before powering on, and confirm the unit is approximately level before starting a session. A small bubble level placed on top of the scope is a handy accessory for this.
 
-**Q: Can I use a full-size camera tripod instead of the included tabletop tripod?**
+**Q: Can I use a full-size camera tripod instead of the optional DWARFLAB tabletop tripod?**
 Yes. Any standard camera tripod with a 1/4"-20 stud or head is compatible. A taller, heavier tripod improves stability — especially in windy conditions — and lets you position the scope at eye level rather than bending over a table. Make sure the tripod head is level before powering on.
 
 **Q: Can I use a ball head or pan-tilt head?**
 Yes, but use it only to level the scope before powering on — not to reposition it during a session. Once the Dwarf Mini is powered on and aligned, its own motors handle all movement. Adjusting the tripod head mid-session will break tracking and GoTo alignment and require you to start over.
 
 **Q: Can I use the Dwarf Mini without any tripod?**
-You can set the Dwarf Mini directly on a flat, stable surface using its base as a rest. However, even the included tabletop tripod is preferable: it raises the scope slightly, helps level it, and isolates it from surface contact. Direct placement on a hard surface also transmits more vibration.
+You can set the Dwarf Mini directly on a flat, stable surface using its base as a rest. However, the optional DWARFLAB tabletop tripod is preferable: it raises the scope slightly, helps level it, and isolates it from surface contact. Direct placement on a hard surface also transmits more vibration.
 
-**Q: How do I adjust the height of the included tabletop tripod?**
-The included tabletop tripod has fixed-length legs — it folds and unfolds but is not height-adjustable. If you need more height or adjustability, use a standard camera tripod.
+**Q: How do I adjust the height of the DWARFLAB tabletop tripod?**
+The DWARFLAB tabletop tripod (sold separately) has fixed-length legs — it folds and unfolds but is not height-adjustable. If you need more height or adjustability, use a standard camera tripod.
 
 **Q: What surface should I place the tripod on?**
 Prioritize firmness and stability. Hard, flat surfaces (concrete, pavement, a solid table) transmit less vibration than soft ones (grass, carpet, a hollow wooden deck). Vibration from footsteps, wind, or a flexing surface shows up in stacked images as star trails or blurred frames.
@@ -586,4 +586,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-27 0330 CST*
+*Last updated: 2026-03-28 0841 CST*
