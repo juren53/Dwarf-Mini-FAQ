@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-28 0841 CST
+
+### Fixed
+- **Section 3: Tripod & Mounting** — removed all references to "included tabletop tripod"; DWARFLAB tabletop tripod is sold separately, not bundled with the Dwarf Mini. Updated four Q&A entries accordingly.
+
+---
+
 ## 2026-03-26 1804 CST
 
 ### Changed
