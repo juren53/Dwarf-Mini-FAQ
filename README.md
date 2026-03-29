@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-28 0853 CST*
+*Last updated: 2026-03-28 1842 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -175,6 +175,20 @@ Press and hold the power button until the indicator light comes on (or off). Ref
 4. Open the app and follow any first-time setup prompts.
 5. Check for and install any available firmware updates before your first observing session.
 6. Perform a daytime calibration to familiarize yourself with the controls before attempting astrophotography.
+
+**Q: What is the typical workflow from powering on to imaging an object?**
+Most sessions follow this sequence once your equipment and site are set up:
+
+1. **Place and level the scope** — Mount the Dwarf Mini on your tripod, confirm it is approximately level, and remove the lens cap.
+2. **Power on** — Press and hold the power button until the indicator light comes on.
+3. **Connect your phone** — Open your phone's Wi-Fi settings and connect to the Dwarf Mini's hotspot (e.g., `DWARF_MINI_XXXXXX`), then open the DWARFLAB app — it connects to the scope automatically.
+4. **Confirm location and time** — The app uses your phone's GPS and clock for GoTo calculations. Verify your location is shown correctly in the app.
+5. **Focus** — Tap the **Infinity (∞)** button in the focus panel to return to the stored astrophotography focus position, then tap **AF** to fine-tune on the current sky.
+6. **Select a target and GoTo** — Use the catalog or Sky Finder to choose a target and send the scope to it. For your first GoTo of the night, starting with a bright star or the Moon is a useful sanity check on pointing accuracy.
+7. **Set exposure and gain** — Choose settings appropriate to your target (see [Section 8: Astrophotography](#8-astrophotography) for starting points).
+8. **Begin stacking** — Tap the shutter/record button to start capturing and stacking frames. The live preview improves with each successive frame.
+
+> **Tip:** If GoTo consistently misses targets, confirm the scope was level when powered on, and verify your phone's GPS location and date/time are accurate.
 
 ---
 

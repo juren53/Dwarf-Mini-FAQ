@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-03-28 1842 CST
+
+### Added
+- **Q: What is the typical workflow from powering on to imaging an object?** — step-by-step session workflow covering leveling, power-on, Wi-Fi connection, location/time confirmation, focusing, GoTo, exposure/gain selection, and beginning a stacking session (Section 4)
+
+---
+
 ## 2026-03-28 0853 CST
 
 ### Fixed
