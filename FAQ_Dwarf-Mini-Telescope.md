@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-03-28 0853 CST*
+*Last updated: 2026-04-18 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -366,6 +366,46 @@ After a GoTo slew, the camera takes a short exposure and compares the star patte
 **Q: How does the Dwarf Mini know where to point?**
 The app uses your phone's GPS (or manually entered location) combined with the current date/time to calculate the position of objects in the sky. The Dwarf Mini's motors then move to the calculated coordinates.
 
+**Q: Where does the Dwarf Mini get the information to determine where to point the telescope?**
+The DWARFLAB system (including the DWARF 2, DWARF 3, and Dwarf Mini) uses the **J2000.0 epoch** as its standard celestial coordinate system. Here is how the different components work together:
+
+**1. Coordinate Epoch: J2000**
+All manual GoTo entries and internal catalog coordinates use the J2000 standard — star and deep-sky object positions as defined at January 1, 2000 at 12:00 TT. This is the current standard reference epoch and accounts for the Earth's precession over time. When entering coordinates manually (for a comet, for example), always use J2000 values.
+
+**2. Solar System Ephemeris**
+For the Sun, Moon, and planets, the telescope calculates positions using its built-in DWARFLAB Celestial Database. The app's dedicated **Solar System Mode** performs real-time ephemeris calculations to center and track moving solar system bodies, compensating for both Earth's rotation and the object's own motion. For high-precision targets not in the local database (such as newly discovered comets), users typically supplement with ephemeris data from **JPL Horizons**.
+
+**3. Internal Star Atlas**
+The Dwarf Mini carries an internal star atlas (approximately 2 GB) that includes the Messier, NGC, and IC catalogs — all stored with J2000 positions. This atlas is the basis for plate solving: the telescope compares a captured star field against the atlas to calibrate its pointing against the J2000 grid.
+
+**4. Alt-Azimuth Tracking with Calculated Motor Rates**
+Unlike a traditional equatorial mount, the Dwarf Mini uses an alt-azimuth mount. It uses its internal ephemeris to calculate the specific motor speeds needed on both axes to mimic equatorial tracking — this is essential for long-exposure Astro Mode and the automatic stacking process.
+
+> **Tip for comet imaging:** Pull your target's RA/Dec from a J2000 source (such as JPL Horizons). If the comet is listed as "Unknown" in the atlas, entering its J2000 coordinates directly will allow GoTo to center it accurately.
+
+**Q: How do I enter J2000 RA/Dec coordinates into the Dwarf Mini?**
+Use the **Custom Object** interface in the DWARFLAB app. The app handles the conversion from J2000 to the current epoch (JNow) automatically.
+
+**Steps:**
+1. Connect your phone to the Dwarf Mini via the DWARFLAB app and confirm the telescope has completed its initial **plate solving** calibration.
+2. Tap the **Astro** icon in the main menu.
+3. Select the **Custom** or **Add Object** tab (usually at the bottom of the target list).
+4. Enter your target data:
+   - **Name** — a label for your target
+   - **RA** — in hours, minutes, and seconds (e.g., 12h 30m 00s)
+   - **Dec** — in degrees, arcminutes, and arcseconds (e.g., +15° 20' 00")
+5. Tap **Confirm** or **GoTo**. The app calculates the current position from your J2000 input and slews to the target.
+
+**Important:**
+- **Plate solving must succeed first.** If the Dwarf Mini hasn't plate-solved after powering on, GoTo will be inaccurate regardless of how precise the coordinates are. Run a calibration on a clear patch of sky before attempting a custom coordinate GoTo.
+- **Check your format.** The app expects RA in HMS (hours:minutes:seconds), not decimal degrees. Most J2000 sources provide RA in HMS, but verify your source.
+
+**Converting decimal coordinates to HMS/DMS (if needed):**
+
+For RA: divide decimal degrees by 15 to get hours, then carry the remainder into minutes and seconds as usual.
+
+For Dec: the degrees value is the same; multiply the decimal remainder by 60 for arcminutes, then that remainder by 60 for arcseconds.
+
 **Q: What is star alignment / plate solving?**
 Some smart telescope apps use **plate solving** — the camera takes an image, compares the star pattern against a known star catalog, and precisely determines where the telescope is pointing. This corrects for small pointing errors. Check the DWARFLAB app release notes to see if and how plate solving is supported for your firmware version.
 
@@ -586,4 +626,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-03-28 0853 CST*
+*Last updated: 2026-04-18 CST*
