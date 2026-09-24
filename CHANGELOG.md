@@ -8,6 +8,16 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-09-24 0938 CST
+
+### Added
+- **High Point Scientific review link** — hands-on Dwarf Mini review added to Resources & Community (Section 16)
+
+### Changed
+- **DWARFLAB User Manual / Downloads entry** — replaced "check the official site" with direct links to the DWARF mini User Manual and the App & Firmware Download page (Section 16)
+
+---
+
 ## 2026-09-24 0933 CST
 
 ### Added

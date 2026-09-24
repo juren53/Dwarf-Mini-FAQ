@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-24 0933 CST*
+*Last updated: 2026-09-24 0938 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -646,8 +646,10 @@ This depends on firmware. Some versions support a USB mass storage or MTP mode w
 ## 16. Resources & Community
 
 - **DWARFLAB Official Website:** [https://www.dwarflab.com](https://www.dwarflab.com)
-- **DWARFLAB User Manual / Downloads:** Check the official site's support/download section
+- **DWARFLAB User Manual:** [DWARF mini User Manual](https://help.dwarflab.com/en/docs/DWARF-mini-Smart-Telescope-User-Manual) on the DWARFLAB Help Center
+- **DWARFLAB App & Firmware Downloads:** [App and Firmware Download page](https://checkout.dwarflab.com/pages/dwarflab-app-firmware-download), which includes release notes for each version
 - **DWARFLAB App:** Available on Apple App Store and Google Play (search "DWARFLAB")
+- **High Point Scientific Review:** [Dwarf Mini Smart Telescope: Full Review](https://www.highpointscientific.com/astronomy-hub/post/astro-photography-guides/dwarf-mini-smart-telescope-full-review), a hands-on review covering imaging modes, Star Trail, and dark frames
 - **Reddit:** [r/telescopes](https://www.reddit.com/r/telescopes/) and search for "Dwarf Mini"
 - **CloudyNights Forums:** [https://www.cloudynights.com](https://www.cloudynights.com) — search for "Dwarf Mini"
 - **Facebook:** Search for "DWARFLAB" or "Dwarf Telescope" user groups
@@ -667,4 +669,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-24 0933 CST*
+*Last updated: 2026-09-24 0938 CST*
