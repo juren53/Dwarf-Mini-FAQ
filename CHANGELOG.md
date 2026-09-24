@@ -8,6 +8,15 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-09-24 0919 CST
+
+### Fixed
+- **Wide-angle lens focus answer conflated "fixed focal length" with "fixed focus"** — every prime lens has a fixed focal length; the reason the wide-angle lens can't be focused is that it is fixed-focus with no focus motor (Section 6)
+- **Observer's Checklist focus steps contradicted themselves** — the checklist said to tap AF to fine-tune after pressing Infinity, while also noting AF is disabled in Astro Mode; removed the AF step so the night-session steps match the FAQ (Infinity → manual +/− if needed → Update Auto Focus Position)
+- **Observer's Checklist EQ setup still overstated the Polaris requirement** — brought the checklist in line with the 2026-09-23 1912 FAQ fix: tilt to latitude and point roughly north/south; seeing Polaris is not required
+
+---
+
 ## 2026-09-23 1926 CST
 
 ### Added

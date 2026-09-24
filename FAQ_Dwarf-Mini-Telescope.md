@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-23 1926 CST*
+*Last updated: 2026-09-24 0919 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -262,7 +262,7 @@ This is a one-time calibration step, not something you need to do every session.
 - If focus motor movement is erratic, restart the Dwarf Mini and try again.
 
 **Q: Can I focus the wide-angle lens?**
-No. The wide-angle lens on the Dwarf Mini has a fixed focal length — it is not motorized and cannot be focused. Autofocus and manual focus controls apply to the telephoto lens only.
+No. The wide-angle lens on the Dwarf Mini is fixed-focus — it has no focus motor and cannot be adjusted. Autofocus and manual focus controls apply to the telephoto lens only.
 
 ---
 
@@ -632,4 +632,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-23 1926 CST*
+*Last updated: 2026-09-24 0919 CST*

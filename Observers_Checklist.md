@@ -110,15 +110,14 @@ The Dwarf Mini's built-in battery provides roughly **3–4 hours** of continuous
 - [ ] GoTo a bright star or the Moon first to verify pointing before targeting faint objects
 
 ### EQ Mode (exposures ≥15 s, Milky Way, Panorama)
-- [ ] Physically tilt the Dwarf Mini so it points toward **Polaris** (the North Star)
+- [ ] Tilt the Dwarf Mini's body to match your **latitude** and point it roughly **north** (Northern Hemisphere) or **south** (Southern Hemisphere) — you do not need to see Polaris or Sigma Octantis; only the rotation axis needs to align
 - [ ] Follow the EQ alignment procedure in the app to confirm polar alignment
 - [ ] The app switches to EQ tracking automatically once aligned
 
 ### Focus
 - [ ] Tap the **Infinity (∞)** button in the app's focus panel to return to the stored astrophotography focus reference
-- [ ] Tap **AF (Auto Focus)** to fine-tune — the button turns green while focusing and white when done
-- [ ] If autofocus consistently produces soft stars, use **manual focus** (+/−) to sharpen, then go to **Parameters → Settings → Update Auto Focus Position** to save the new reference
-- [ ] Note: autofocus is **disabled in Astro Mode** — use the Infinity button instead
+- [ ] Note: autofocus (AF) is **disabled in Astro Mode** — the Infinity button is your starting point at night
+- [ ] If stars look soft at the Infinity position, use **manual focus** (+/−) to sharpen, then go to **Parameters → Settings → Update Auto Focus Position** to save the new reference
 
 ---
 
