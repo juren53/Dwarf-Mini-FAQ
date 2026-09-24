@@ -8,6 +8,40 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-09-23 1926 CST
+
+### Added
+- **Weight, battery capacity, rotation range, and charging specs** — added to the spec table (840 g, 7000 mAh, 225° lens barrel tilt + 360° base rotation) and a new charging Q&A (USB-C, USB-PD 12V/2A fast charge vs. 5V slow charge, ~100 min full charge, usable while charging), verified against DWARFLAB's official spec sheet and user manual (Section 2)
+
+### Changed
+- **Spec table question renamed** from "What are the key optical specifications?" to "What are the key specifications?" since the table now includes non-optical fields
+
+---
+
+## 2026-09-23 1912 CST
+
+### Fixed
+- **EQ mode setup instructions overstated the Polaris requirement** — "physically tilt the Dwarf Mini so it points toward Polaris" wrongly implied a direct line of sight to the star is needed; corrected per DWARFLAB's official user manual, which states the Dwarf Mini does not require you to "see" Polaris (or Sigma Octantis) — only the rotation axis needs to align, achieved by tilting to latitude and pointing roughly north/south (Section 2)
+
+---
+
+## 2026-09-23 1908 CST
+
+### Changed
+- **Storage capacity filled in** — replaced the "check the current firmware release notes for capacity" hedge with the confirmed spec: 64 GB built-in eMMC storage, no microSD card slot (Section 2)
+
+---
+
+## 2026-09-23 1906 CST
+
+### Fixed
+- **Hardware/specs table was substantially wrong** (GitHub issue #5) — corrected Aperture (24mm → 30mm), Focal Length (100mm → 150mm), Focal Ratio (f/4.2 → f/5), Main Camera (Sony IMX462 → Sony IMX662), and Field of View (~3.7°×2.8° → ~2.13°×1.20°, diagonal ~2.45°); all values verified against DWARFLAB's official product page spec data and corroborated by multiple independent retailer/review sources (Section 2)
+- **Dwarf II/3 comparison text was inaccurate** — corrected the claim that the Dwarf Mini has a shorter focal length and smaller aperture than both other models; it actually matches the Dwarf 3's 150mm focal length and has a larger aperture than the Dwarf II's 24mm (Section 1)
+- **Pano Weave explanation incorrectly claimed the Dwarf Mini is a single-camera system** — the Dwarf Mini has a dual-camera system (telephoto + wide-angle) just like the Dwarf 3, contradicting the original 2026-03-24 1830 CST changelog entry; replaced the false hardware explanation with an honestly-hedged one pointing to sensor resolution (~2MP vs ~8MP) as the likely factor (Section 11)
+- **`build-html.py` / `make-html.sh` HTML build pipeline was broken** — both scripts still read from `README.md`, which had been replaced by `FAQ_Dwarf-Mini-Telescope.md` as the FAQ source in an earlier rename; repointed both scripts at the current source file. Also loosened the "Last updated" timestamp regex to accept the date with or without an `HHMM` time component, since a prior edit had dropped the time and silently broken the old regex. Regenerating `docs/index.html` with the fix also caught up content (the "ephemeris question") that had been added to the FAQ but never propagated to the HTML while the pipeline was broken
+
+---
+
 ## 2026-03-28 0853 CST
 
 ### Fixed
