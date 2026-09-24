@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-24 0924 CST*
+*Last updated: 2026-09-24 0929 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -237,14 +237,17 @@ The official download and release history page is at [dwarflab.com/pages/dwarfla
 **Q: Does the Dwarf Mini have autofocus?**
 Yes. The Dwarf Mini has a motorized focus system controlled entirely through the DWARFLAB app — there is no physical focus knob. Autofocus is triggered via the **AF button** in the app's focus panel. The button turns green while focusing and returns to white when focus is achieved.
 
+**Q: How does autofocus work?**
+Autofocus is a software-driven routine that moves an internal focus motor on the telephoto lens — there is nothing to adjust by hand. When you start it, the motor sweeps the lens through its focus range (you will usually hear a brief whirring sound) while the app captures preview frames from the Sony IMX662 sensor. Each frame is scored for contrast and sharpness, and the focuser settles on the position that scored highest: pinpoint stars, crisp lunar craters, or a sharp daytime subject. This approach is known as **contrast-detection autofocus**. *(Source: High Point Scientific.)*
+
 **Q: How do I trigger autofocus?**
-In the app's focus panel, tap the **Auto (AF)** button. In telephoto/daytime mode you can also double-tap the live view to trigger autofocus on that area. Note that autofocus cannot be triggered in Astro Mode — this is intentional to prevent disrupting a calibrated focus during an imaging session.
+In the app's focus panel, tap the **Auto (AF)** button. In telephoto/daytime mode you can also double-tap the live view to trigger autofocus on that area. In Astro Mode the double-tap shortcut is disabled — DWARFLAB did this intentionally so a stray tap can't knock a carefully set focus out — but the **AF** button in the focus panel still works. For astronomical targets, focus after GoTo has finished pointing at your target and before you start capturing.
 
 **Q: How do I adjust focus manually?**
 Open the focus panel in the app and tap the **+** or **−** buttons to move the focus in or out. Tap to step slowly; press and hold to move faster. The app displays a real-time sharpness indicator — when stars appear smallest and brightest (or a distant daytime subject appears sharpest), focus is correct.
 
 **Q: What is the Infinity focus button?**
-The **Infinity (∞)** button in the focus panel returns the focus to the preset reference position used for astrophotography — the stored "infinity focus" point optimized for stars. Tapping it is the quickest way to get back to a good starting focus at the beginning of a night session.
+The **Infinity (∞)** button in the focus panel returns the focus to the preset reference position used for astrophotography — the stored "infinity focus" point optimized for stars. Tapping it is the quickest way to get back to a good starting focus at the beginning of a night session. DWARFLAB's recommended workflow is to tap **Infinity** first, then tap **AF** to fine-tune.
 
 **Q: What is "Update Auto Focus Position" and when should I use it?**
 This setting lets you redefine the stored infinity focus reference point. If autofocus consistently produces slightly soft stars, or if the scope's focus has drifted over time, you can:
@@ -257,7 +260,7 @@ This is a one-time calibration step, not something you need to do every session.
 
 **Q: Autofocus failed or won't engage. What should I do?**
 - Make sure your target is at least **5 metres away** — autofocus is not designed for close subjects and will fail on nearby objects.
-- In Astro Mode, autofocus is intentionally disabled. Switch to manual focus or use the Infinity button to return to the preset position.
+- In Astro Mode, double-tapping the live view will not trigger autofocus — this is intentional. Use the **AF** button in the focus panel instead, or tap **Infinity** to return to the preset position.
 - If stars are consistently soft even after autofocus, use manual focus to dial in sharpness and then update the Auto Focus Position (see above).
 - If focus motor movement is erratic, restart the Dwarf Mini and try again.
 
@@ -634,4 +637,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-24 0924 CST*
+*Last updated: 2026-09-24 0929 CST*

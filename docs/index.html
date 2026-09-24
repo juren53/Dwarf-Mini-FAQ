@@ -10,7 +10,7 @@
 <div class="container">
 
   <h1>Dwarf Mini Smart Telescope &#8212; FAQ</h1>
-  <p class="timestamp"><em>Last updated: 2026-09-24 0924 CST</em></p>
+  <p class="timestamp"><em>Last updated: 2026-09-24 0929 CST</em></p>
 
   <p>A community-maintained FAQ for the <strong>Dwarf Mini Smart
   Telescope</strong> by DWARFLAB.</p>
@@ -453,12 +453,24 @@
   via the <strong>AF button</strong> in the app’s focus panel. The button
   turns green while focusing and returns to white when focus is
   achieved.</p>
+  <p><strong>Q: How does autofocus work?</strong> Autofocus is a
+  software-driven routine that moves an internal focus motor on the
+  telephoto lens — there is nothing to adjust by hand. When you start it,
+  the motor sweeps the lens through its focus range (you will usually hear
+  a brief whirring sound) while the app captures preview frames from the
+  Sony IMX662 sensor. Each frame is scored for contrast and sharpness, and
+  the focuser settles on the position that scored highest: pinpoint stars,
+  crisp lunar craters, or a sharp daytime subject. This approach is known
+  as <strong>contrast-detection autofocus</strong>. <em>(Source: High
+  Point Scientific.)</em></p>
   <p><strong>Q: How do I trigger autofocus?</strong> In the app’s focus
   panel, tap the <strong>Auto (AF)</strong> button. In telephoto/daytime
   mode you can also double-tap the live view to trigger autofocus on that
-  area. Note that autofocus cannot be triggered in Astro Mode — this is
-  intentional to prevent disrupting a calibrated focus during an imaging
-  session.</p>
+  area. In Astro Mode the double-tap shortcut is disabled — DWARFLAB did
+  this intentionally so a stray tap can’t knock a carefully set focus out
+  — but the <strong>AF</strong> button in the focus panel still works. For
+  astronomical targets, focus after GoTo has finished pointing at your
+  target and before you start capturing.</p>
   <p><strong>Q: How do I adjust focus manually?</strong> Open the focus
   panel in the app and tap the <strong>+</strong> or <strong>−</strong>
   buttons to move the focus in or out. Tap to step slowly; press and hold
@@ -470,7 +482,9 @@
   focus to the preset reference position used for astrophotography — the
   stored “infinity focus” point optimized for stars. Tapping it is the
   quickest way to get back to a good starting focus at the beginning of a
-  night session.</p>
+  night session. DWARFLAB’s recommended workflow is to tap
+  <strong>Infinity</strong> first, then tap <strong>AF</strong> to
+  fine-tune.</p>
   <p><strong>Q: What is “Update Auto Focus Position” and when should I use
   it?</strong> This setting lets you redefine the stored infinity focus
   reference point. If autofocus consistently produces slightly soft stars,
@@ -487,12 +501,14 @@
   <p><strong>Q: Autofocus failed or won’t engage. What should I
   do?</strong> - Make sure your target is at least <strong>5 metres
   away</strong> — autofocus is not designed for close subjects and will
-  fail on nearby objects. - In Astro Mode, autofocus is intentionally
-  disabled. Switch to manual focus or use the Infinity button to return to
-  the preset position. - If stars are consistently soft even after
-  autofocus, use manual focus to dial in sharpness and then update the
-  Auto Focus Position (see above). - If focus motor movement is erratic,
-  restart the Dwarf Mini and try again.</p>
+  fail on nearby objects. - In Astro Mode, double-tapping the live view
+  will not trigger autofocus — this is intentional. Use the
+  <strong>AF</strong> button in the focus panel instead, or tap
+  <strong>Infinity</strong> to return to the preset position. - If stars
+  are consistently soft even after autofocus, use manual focus to dial in
+  sharpness and then update the Auto Focus Position (see above). - If
+  focus motor movement is erratic, restart the Dwarf Mini and try
+  again.</p>
   <p><strong>Q: Can I focus the wide-angle lens?</strong> No. The
   wide-angle lens on the Dwarf Mini is fixed-focus — it has no focus motor
   and cannot be adjusted. Autofocus and manual focus controls apply to the
@@ -1116,7 +1132,7 @@
   app updates are released. Always verify critical details against
   official DWARFLAB documentation.</em></p>
 
-  <p class="timestamp"><em>Last updated: 2026-09-24 0924 CST</em></p>
+  <p class="timestamp"><em>Last updated: 2026-09-24 0929 CST</em></p>
 
 </div>
 </body>

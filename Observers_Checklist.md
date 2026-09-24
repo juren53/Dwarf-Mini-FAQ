@@ -116,8 +116,9 @@ The Dwarf Mini's built-in battery provides roughly **3–4 hours** of continuous
 
 ### Focus
 - [ ] Tap the **Infinity (∞)** button in the app's focus panel to return to the stored astrophotography focus reference
-- [ ] Note: autofocus (AF) is **disabled in Astro Mode** — the Infinity button is your starting point at night
-- [ ] If stars look soft at the Infinity position, use **manual focus** (+/−) to sharpen, then go to **Parameters → Settings → Update Auto Focus Position** to save the new reference
+- [ ] Tap **AF (Auto Focus)** to fine-tune — the button turns green while focusing and white when done
+- [ ] Note: in Astro Mode, **double-tapping** the live view won't trigger autofocus — use the **AF** button instead
+- [ ] If autofocus consistently produces soft stars, use **manual focus** (+/−) to sharpen, then go to **Parameters → Settings → Update Auto Focus Position** to save the new reference
 
 ---
 

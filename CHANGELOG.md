@@ -8,6 +8,17 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-09-24 0929 CST
+
+### Added
+- **Q: How does autofocus work?** — explains the internal motorized focuser and contrast-detection routine (sweeps the focus range, scores preview frames for sharpness, settles on the best position), per High Point Scientific (Section 6)
+
+### Fixed
+- **Autofocus wrongly described as disabled in Astro Mode** — per the DWARF mini user manual, only the *double-tap* autofocus shortcut is disabled in Astro Mode; the AF button still works. Corrected the trigger and troubleshooting answers and added DWARFLAB's recommended Infinity → AF workflow (Section 6)
+- **Observer's Checklist focus steps** — restored the "tap AF to fine-tune" step that was incorrectly removed in the previous focus fix, and corrected the Astro Mode note to refer only to double-tap
+
+---
+
 ## 2026-09-24 0924 CST
 
 ### Changed
