@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-23 1908 CST*
+*Last updated: 2026-09-23 1912 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -78,7 +78,7 @@ It is the simplest mount type to set up — just place the scope level and go. T
 EQ mode (equatorial mode) is a software-guided setup that tilts the Dwarf Mini's mount so its rotation axis aligns with Earth's rotational axis (pointed toward Polaris in the northern hemisphere). This eliminates field rotation, allowing much longer individual exposures and sharper stacked results.
 
 **How to enter EQ mode:**
-1. Physically tilt the Dwarf Mini so it points toward Polaris (the North Star)
+1. Tilt the Dwarf Mini's body to match your latitude and point it roughly north (Northern Hemisphere) or south (Southern Hemisphere) — you do not need to actually see Polaris or Sigma Octantis; what matters is the rotation axis, not aiming at the star itself
 2. Follow the alignment procedure in the DWARFLAB app to confirm polar alignment
 3. The app switches to EQ tracking mode automatically once aligned
 
@@ -626,4 +626,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-23 1908 CST*
+*Last updated: 2026-09-23 1912 CST*
