@@ -10,7 +10,7 @@
 <div class="container">
 
   <h1>Dwarf Mini Smart Telescope &#8212; FAQ</h1>
-  <p class="timestamp"><em>Last updated: 2026-03-28 0853 CST</em></p>
+  <p class="timestamp"><em>Last updated: 2026-09-23 1906 CST</em></p>
 
   <p>A community-maintained FAQ for the <strong>Dwarf Mini Smart
   Telescope</strong> by DWARFLAB.</p>
@@ -75,11 +75,15 @@
   the hardware.</p>
   <p><strong>Q: How is the Dwarf Mini different from the Dwarf II or Dwarf
   3?</strong> The Dwarf Mini is DWARFLAB’s smallest and most affordable
-  model. Compared to the Dwarf II and Dwarf 3, it has a shorter focal
-  length, a smaller aperture, and a more compact form factor. It is well
+  model. It has a smaller aperture than the Dwarf 3 (30 mm vs. 35 mm) but
+  a larger aperture than the Dwarf II (24 mm), and its 150 mm telephoto
+  focal length matches the Dwarf 3 rather than being shorter — the Dwarf
+  II’s is the shortest of the three at 100 mm. Its main disadvantage
+  relative to the Dwarf 3 is a lower-resolution telephoto sensor (~2 MP
+  vs. ~8 MP) and a smaller, more compact form factor overall. It is well
   suited for wide-field astrophotography and daytime photography, but is
   less suited for small planetary detail or faint deep-sky objects that
-  benefit from longer focal lengths.</p>
+  benefit from higher sensor resolution.</p>
   <p><strong>Q: Does the Dwarf Mini have an eyepiece?</strong> No. The
   Dwarf Mini is a camera-based smart telescope. All viewing is done
   through the DWARFLAB app on your smartphone or tablet. There is no
@@ -97,23 +101,23 @@
   <tbody>
   <tr class="odd">
   <td>Aperture</td>
-  <td>24 mm</td>
+  <td>30 mm</td>
   </tr>
   <tr class="even">
   <td>Focal Length</td>
-  <td>100 mm</td>
+  <td>150 mm</td>
   </tr>
   <tr class="odd">
   <td>Focal Ratio</td>
-  <td>f/4.2</td>
+  <td>f/5</td>
   </tr>
   <tr class="even">
   <td>Main Camera</td>
-  <td>Sony IMX462 (color)</td>
+  <td>Sony IMX662 (color)</td>
   </tr>
   <tr class="odd">
   <td>Field of View</td>
-  <td>~3.7° × 2.8°</td>
+  <td>~2.13° × 1.20° (diagonal ~2.45°)</td>
   </tr>
   <tr class="even">
   <td>Mount Type</td>
@@ -655,6 +659,72 @@
   app uses your phone’s GPS (or manually entered location) combined with
   the current date/time to calculate the position of objects in the sky.
   The Dwarf Mini’s motors then move to the calculated coordinates.</p>
+  <p><strong>Q: Where does the Dwarf Mini get the information to determine
+  where to point the telescope?</strong> The DWARFLAB system (including
+  the DWARF 2, DWARF 3, and Dwarf Mini) uses the <strong>J2000.0
+  epoch</strong> as its standard celestial coordinate system. Here is how
+  the different components work together:</p>
+  <p><strong>1. Coordinate Epoch: J2000</strong> All manual GoTo entries
+  and internal catalog coordinates use the J2000 standard — star and
+  deep-sky object positions as defined at January 1, 2000 at 12:00 TT.
+  This is the current standard reference epoch and accounts for the
+  Earth’s precession over time. When entering coordinates manually (for a
+  comet, for example), always use J2000 values.</p>
+  <p><strong>2. Solar System Ephemeris</strong> For the Sun, Moon, and
+  planets, the telescope calculates positions using its built-in DWARFLAB
+  Celestial Database. The app’s dedicated <strong>Solar System
+  Mode</strong> performs real-time ephemeris calculations to center and
+  track moving solar system bodies, compensating for both Earth’s rotation
+  and the object’s own motion. For high-precision targets not in the local
+  database (such as newly discovered comets), users typically supplement
+  with ephemeris data from <strong>JPL Horizons</strong>.</p>
+  <p><strong>3. Internal Star Atlas</strong> The Dwarf Mini carries an
+  internal star atlas (approximately 2 GB) that includes the Messier, NGC,
+  and IC catalogs — all stored with J2000 positions. This atlas is the
+  basis for plate solving: the telescope compares a captured star field
+  against the atlas to calibrate its pointing against the J2000 grid.</p>
+  <p><strong>4. Alt-Azimuth Tracking with Calculated Motor Rates</strong>
+  Unlike a traditional equatorial mount, the Dwarf Mini uses an
+  alt-azimuth mount. It uses its internal ephemeris to calculate the
+  specific motor speeds needed on both axes to mimic equatorial tracking —
+  this is essential for long-exposure Astro Mode and the automatic
+  stacking process.</p>
+  <blockquote>
+  <p><strong>Tip for comet imaging:</strong> Pull your target’s RA/Dec
+  from a J2000 source (such as JPL Horizons). If the comet is listed as
+  “Unknown” in the atlas, entering its J2000 coordinates directly will
+  allow GoTo to center it accurately.</p>
+  </blockquote>
+  <p><strong>Q: How do I enter J2000 RA/Dec coordinates into the Dwarf
+  Mini?</strong> Use the <strong>Custom Object</strong> interface in the
+  DWARFLAB app. The app handles the conversion from J2000 to the current
+  epoch (JNow) automatically.</p>
+  <p><strong>Steps:</strong> 1. Connect your phone to the Dwarf Mini via
+  the DWARFLAB app and confirm the telescope has completed its initial
+  <strong>plate solving</strong> calibration. 2. Tap the
+  <strong>Astro</strong> icon in the main menu. 3. Select the
+  <strong>Custom</strong> or <strong>Add Object</strong> tab (usually at
+  the bottom of the target list). 4. Enter your target data: -
+  <strong>Name</strong> — a label for your target - <strong>RA</strong> —
+  in hours, minutes, and seconds (e.g., 12h 30m 00s) -
+  <strong>Dec</strong> — in degrees, arcminutes, and arcseconds (e.g.,
+  +15° 20’ 00”) 5. Tap <strong>Confirm</strong> or <strong>GoTo</strong>.
+  The app calculates the current position from your J2000 input and slews
+  to the target.</p>
+  <p><strong>Important:</strong> - <strong>Plate solving must succeed
+  first.</strong> If the Dwarf Mini hasn’t plate-solved after powering on,
+  GoTo will be inaccurate regardless of how precise the coordinates are.
+  Run a calibration on a clear patch of sky before attempting a custom
+  coordinate GoTo. - <strong>Check your format.</strong> The app expects
+  RA in HMS (hours:minutes:seconds), not decimal degrees. Most J2000
+  sources provide RA in HMS, but verify your source.</p>
+  <p><strong>Converting decimal coordinates to HMS/DMS (if
+  needed):</strong></p>
+  <p>For RA: divide decimal degrees by 15 to get hours, then carry the
+  remainder into minutes and seconds as usual.</p>
+  <p>For Dec: the degrees value is the same; multiply the decimal
+  remainder by 60 for arcminutes, then that remainder by 60 for
+  arcseconds.</p>
   <p><strong>Q: What is star alignment / plate solving?</strong> Some
   smart telescope apps use <strong>plate solving</strong> — the camera
   takes an image, compares the star pattern against a known star catalog,
@@ -785,13 +855,16 @@
   desktop software or separate download required. You access it from the
   top of your album after a session.</p>
   <blockquote>
-  <p><strong>Why is Pano Weave DWARF 3 only?</strong> Pano Weave requires
-  the multi-shot telephoto panorama shooting mode, which depends on the
-  DWARF 3’s dual-camera system (telephoto + wide-angle working together).
-  The Dwarf Mini is a single-camera system and lacks this shooting mode
-  entirely. This is one of the clearer hardware differentiators between
-  the two models — if gigapixel panorama stitching matters to you, the
-  DWARF 3 is the right choice.</p>
+  <p><strong>Why is Pano Weave DWARF 3 only?</strong> It isn’t a
+  camera-count difference — the Dwarf Mini also has a dual-camera system
+  (telephoto + wide-angle working together). DWARFLAB hasn’t published a
+  technical explanation for restricting Pano Weave to the DWARF 3, but the
+  most likely factor is sensor resolution: the DWARF 3’s telephoto sensor
+  (~8 MP) captures far more detail per frame than the Dwarf Mini’s (~2
+  MP), which matters a great deal for gigapixel-scale stitching. Whatever
+  the reason, Pano Weave is currently a DWARF 3-exclusive feature — if
+  gigapixel panorama stitching matters to you, the DWARF 3 is the right
+  choice.</p>
   </blockquote>
   <p><strong>Q: What is Stellar Studio?</strong> Stellar Studio is a
   companion app made by DWARFLAB for post-processing the images captured
@@ -1009,7 +1082,7 @@
   app updates are released. Always verify critical details against
   official DWARFLAB documentation.</em></p>
 
-  <p class="timestamp"><em>Last updated: 2026-03-28 0853 CST</em></p>
+  <p class="timestamp"><em>Last updated: 2026-09-23 1906 CST</em></p>
 
 </div>
 </body>

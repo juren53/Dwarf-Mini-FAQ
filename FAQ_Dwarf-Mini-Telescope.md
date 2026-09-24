@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-04-18 CST*
+*Last updated: 2026-09-23 1906 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -44,7 +44,7 @@ It is important to understand from the outset that the Dwarf Mini is not a stand
 Your phone is not just a remote control — it is an essential, active component of the system. A well-maintained phone (charged, GPS enabled, up-to-date app, enough storage for image downloads, and with non-essential background apps closed to free up memory and processing power) is just as important as the telescope itself. Many common problems users encounter — missed GoTo targets, connection issues, poor image results — trace back to the phone side of the equation rather than the hardware.
 
 **Q: How is the Dwarf Mini different from the Dwarf II or Dwarf 3?**
-The Dwarf Mini is DWARFLAB's smallest and most affordable model. Compared to the Dwarf II and Dwarf 3, it has a shorter focal length, a smaller aperture, and a more compact form factor. It is well suited for wide-field astrophotography and daytime photography, but is less suited for small planetary detail or faint deep-sky objects that benefit from longer focal lengths.
+The Dwarf Mini is DWARFLAB's smallest and most affordable model. It has a smaller aperture than the Dwarf 3 (30 mm vs. 35 mm) but a larger aperture than the Dwarf II (24 mm), and its 150 mm telephoto focal length matches the Dwarf 3 rather than being shorter — the Dwarf II's is the shortest of the three at 100 mm. Its main disadvantage relative to the Dwarf 3 is a lower-resolution telephoto sensor (~2 MP vs. ~8 MP) and a smaller, more compact form factor overall. It is well suited for wide-field astrophotography and daytime photography, but is less suited for small planetary detail or faint deep-sky objects that benefit from higher sensor resolution.
 
 **Q: Does the Dwarf Mini have an eyepiece?**
 No. The Dwarf Mini is a camera-based smart telescope. All viewing is done through the DWARFLAB app on your smartphone or tablet. There is no optical eyepiece.
@@ -57,11 +57,11 @@ No. The Dwarf Mini is a camera-based smart telescope. All viewing is done throug
 
 | Parameter | Value |
 |---|---|
-| Aperture | 24 mm |
-| Focal Length | 100 mm |
-| Focal Ratio | f/4.2 |
-| Main Camera | Sony IMX462 (color) |
-| Field of View | ~3.7° × 2.8° |
+| Aperture | 30 mm |
+| Focal Length | 150 mm |
+| Focal Ratio | f/5 |
+| Main Camera | Sony IMX662 (color) |
+| Field of View | ~2.13° × 1.20° (diagonal ~2.45°) |
 | Mount Type | Alt-azimuth, motorized |
 
 > **Note:** Specifications are subject to change. Always verify against the official DWARFLAB product page.
@@ -476,7 +476,7 @@ Infinity Lab is DWARFLAB's built-in suite of post-processing tools, accessible d
 
 Infinity Lab runs entirely within the DWARFLAB mobile app — no desktop software or separate download required. You access it from the top of your album after a session.
 
-> **Why is Pano Weave DWARF 3 only?** Pano Weave requires the multi-shot telephoto panorama shooting mode, which depends on the DWARF 3's dual-camera system (telephoto + wide-angle working together). The Dwarf Mini is a single-camera system and lacks this shooting mode entirely. This is one of the clearer hardware differentiators between the two models — if gigapixel panorama stitching matters to you, the DWARF 3 is the right choice.
+> **Why is Pano Weave DWARF 3 only?** It isn't a camera-count difference — the Dwarf Mini also has a dual-camera system (telephoto + wide-angle working together). DWARFLAB hasn't published a technical explanation for restricting Pano Weave to the DWARF 3, but the most likely factor is sensor resolution: the DWARF 3's telephoto sensor (~8 MP) captures far more detail per frame than the Dwarf Mini's (~2 MP), which matters a great deal for gigapixel-scale stitching. Whatever the reason, Pano Weave is currently a DWARF 3-exclusive feature — if gigapixel panorama stitching matters to you, the DWARF 3 is the right choice.
 
 **Q: What is Stellar Studio?**
 Stellar Studio is a companion app made by DWARFLAB for post-processing the images captured by your Dwarf Mini (and other DWARF telescopes). While the main DWARFLAB app handles live capture and in-the-field stacking, Stellar Studio lets you revisit your saved data later on your phone or tablet — reprocessing, adjusting, and exporting final images at your own pace.
@@ -626,4 +626,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-04-18 CST*
+*Last updated: 2026-09-23 1906 CST*

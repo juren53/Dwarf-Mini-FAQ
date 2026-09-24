@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Build docs/index.html from README.md.
-README.md is the single source of truth — run this after any edits.
+Build docs/index.html from FAQ_Dwarf-Mini-Telescope.md.
+FAQ_Dwarf-Mini-Telescope.md is the single source of truth — run this after any edits.
 """
 
 import html as html_module
@@ -9,14 +9,14 @@ import subprocess
 import re
 from pathlib import Path
 
-MD  = "README.md"
+MD  = "FAQ_Dwarf-Mini-Telescope.md"
 OUT = "docs/index.html"
 
 # ── Read source ──────────────────────────────────────────────────────────────
 text = Path(MD).read_text(encoding="utf-8")
 
 # Extract "Last updated" timestamp
-ts_match = re.search(r'Last updated: ([\d-]+ \d{4} CST)', text)
+ts_match = re.search(r'Last updated: ([\d-]+(?: \d{4})? CST)', text)
 timestamp = ts_match.group(1) if ts_match else ""
 
 # ── Extract body ─────────────────────────────────────────────────────────────
