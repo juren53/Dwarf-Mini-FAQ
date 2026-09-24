@@ -10,7 +10,7 @@
 <div class="container">
 
   <h1>Dwarf Mini Smart Telescope &#8212; FAQ</h1>
-  <p class="timestamp"><em>Last updated: 2026-09-24 0929 CST</em></p>
+  <p class="timestamp"><em>Last updated: 2026-09-24 0933 CST</em></p>
 
   <p>A community-maintained FAQ for the <strong>Dwarf Mini Smart
   Telescope</strong> by DWARFLAB.</p>
@@ -596,10 +596,11 @@
   plan to image comets. The Dwarf Mini’s wide field of view is actually
   well suited for bright comets, which often have extended tails that
   benefit from a wider frame.</p>
-  <p><strong>Q: How do I image the Milky Way?</strong> The Dwarf Mini is
-  well suited for Milky Way photography — its wide field of view (~3.7° ×
-  2.8°) and fast f/4.2 focal ratio are a good match for large extended
-  objects like the galactic core.</p>
+  <p><strong>Q: How do I image the Milky Way?</strong> The Dwarf Mini can
+  photograph the Milky Way, but its telephoto field of view (~2.13° ×
+  1.20°) at f/5 covers only a small part of the galactic core in a single
+  frame. Frame bright regions such as star clouds and nebulae
+  individually, or use Panorama mode to capture a wider sweep.</p>
   <p><strong>When to shoot:</strong> The galactic core (the bright, dense
   central band) is only above the horizon during certain months. In the
   northern hemisphere it is best visible from approximately <strong>late
@@ -659,6 +660,60 @@
   capture a wider sweep than a single frame allows. Note that Panorama
   mode requires EQ mode.</li>
   </ul>
+  <p><strong>Q: What is Star Trail mode?</strong> Star Trail mode captures
+  the circular arcs that stars trace across the sky as the Earth rotates.
+  It uses the Dwarf Mini’s <strong>wide-angle lens</strong>, not the
+  telephoto, and works like a built-in intervalometer: the scope shoots
+  frame after frame from a fixed position and stacks them in real time, so
+  you can watch the trails grow on screen. When the session ends, the app
+  produces star trail <strong>videos</strong> (MP4, 30 fps) in two styles:
+  <strong>Classic</strong> (trails build up over time) and
+  <strong>Comet</strong> (each star leaves a fading tail). Star Trail mode
+  was added in app V3.3.8 (February 2026).</p>
+  <p><strong>Q: How do I shoot star trails?</strong> 1. <strong>Capture
+  wide-angle dark frames first</strong> (see the next question) 2. Tap the
+  <strong>mode icon</strong> in the top-right corner of the shooting
+  screen and select <strong>Star Trails</strong> 3. Use the on-screen
+  joystick to compose your shot. Include some foreground (trees, a
+  building, a horizon line) for scale 4. Choose a shooting duration from
+  <strong>30 to 360 minutes</strong>, or <strong>infinite</strong> to run
+  until you stop it manually 5. Choose your exposure settings: -
+  <strong>Automatic</strong> (recommended for your first session) -
+  <strong>Quick</strong> (matched to an existing dark frame in your
+  library) - <strong>Manual</strong> (set shutter speed and gain
+  yourself)</p>
+  <p>Turn automatic adjustment off to use Quick or Manual. 6. Start
+  shooting. Two timers appear: a <strong>red</strong> timer shows elapsed
+  shooting time, and a <strong>black</strong> timer shows how much
+  exposure has been successfully stacked</p>
+  <p><strong>Tips:</strong> - <strong>Point north</strong> (toward Polaris
+  in the Northern Hemisphere) to get the classic concentric-circle
+  “vortex” of circumpolar stars. Pointing east or west gives long, gently
+  curved arcs instead. - <strong>Longer sessions make longer
+  trails.</strong> More frames and longer exposures both produce longer,
+  more prominent trails. - <strong>Plan for power.</strong> A multi-hour
+  session will outlast the built-in battery, so bring a USB power bank. -
+  <strong>Clean up afterward.</strong> If an airplane or satellite crosses
+  the frame, you can later remove the affected frames and restack with
+  <strong>Mega Stack</strong>, and the videos regenerate
+  automatically.</p>
+  <p><strong>Q: Do I need dark frames for star trails?</strong> Yes, you
+  should capture them yourself. The telephoto camera comes preloaded with
+  dark frames, but the wide-angle camera does not, and the app
+  <strong>won’t prompt you</strong> to capture any before a star trail
+  session. Without them, you may see artifacts such as reverse vignetting.
+  Capture wide-angle darks from the left-side menu before you start. They
+  must match your session’s exposure time and gain, and be taken within
+  about <strong>±8 °C</strong> of the current temperature. Once a matching
+  set is in your dark library, you can reuse it on later nights.</p>
+  <p><strong>Q: My star trail session doesn’t appear in the album. Where
+  is it?</strong> A star trail video appears in the app’s album only after
+  the session has accumulated at least <strong>30 frames</strong>. Shorter
+  sessions are still saved on the Dwarf Mini itself, but you’ll need to
+  connect it to a computer to retrieve them. Also keep in mind that at 30
+  fps, a session needs a fair number of frames just to make a video longer
+  than a second or two, so very short sessions produce very short
+  clips.</p>
   <hr />
   <h2 id="9-goto-tracking">9. GoTo &amp; Tracking</h2>
   <p><strong>Q: What is GoTo?</strong> GoTo is the automatic slew feature
@@ -1017,6 +1072,11 @@
   automatically captures dark frames as part of each imaging session —
   thermal noise suppression is handled for you without any extra
   steps.</p>
+  <p><strong>Exception: the wide-angle lens.</strong> The automatic darks
+  cover the telephoto camera. Modes that use the wide-angle lens, such as
+  <strong>Star Trail mode</strong>, need wide-angle dark frames that you
+  capture yourself. See <em>Do I need dark frames for star trails?</em> in
+  Section 8.</p>
   <p><strong>Q: Do I need to shoot my own flat or bias frames?</strong> No
   — for most users. The Dwarf Mini ships with factory-calibrated flat and
   bias frames loaded per device. Because the optical system is fixed, the
@@ -1132,7 +1192,7 @@
   app updates are released. Always verify critical details against
   official DWARFLAB documentation.</em></p>
 
-  <p class="timestamp"><em>Last updated: 2026-09-24 0929 CST</em></p>
+  <p class="timestamp"><em>Last updated: 2026-09-24 0933 CST</em></p>
 
 </div>
 </body>

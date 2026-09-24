@@ -8,6 +8,19 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-09-24 0933 CST
+
+### Added
+- **Star Trail mode Q&As** — what it is (wide-angle lens, real-time stacking, Classic and Comet MP4 videos at 30 fps), step-by-step setup (mode switch, composition, 30–360 min or infinite duration, Automatic/Quick/Manual settings, on-screen timers), tips (point north for circumpolar trails, power, Mega Stack restacking), wide-angle dark frame requirements, and the 30-frame album minimum; per the DWARF mini user manual §3.2.7 and High Point Scientific's review (Section 8)
+
+### Changed
+- **Q: Do I need to shoot my own dark frames?** — added an exception: automatic darks cover the telephoto camera only, and wide-angle modes such as Star Trail need user-captured darks (Section 12)
+
+### Fixed
+- **Milky Way Q&A used outdated optics figures** — "~3.7° × 2.8°" field of view and "f/4.2" replaced with the spec-table values (~2.13° × 1.20°, f/5) corrected in #5; reworded to note that a single frame covers only part of the galactic core (Section 8)
+
+---
+
 ## 2026-09-24 0929 CST
 
 ### Added

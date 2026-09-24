@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-24 0929 CST*
+*Last updated: 2026-09-24 0933 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -319,7 +319,7 @@ Thermal equilibration is less critical for the Dwarf Mini than for large reflect
 Yes. Comets are supported as GoTo targets in the DWARFLAB app. Because comets move relative to the background stars, their coordinates change over time — the app uses current ephemeris data to calculate the comet's position. A bug affecting incorrect comet GoTo coordinates was fixed in Android app V3.3.1 B528 (2025-11-12), so make sure your app is up to date if you plan to image comets. The Dwarf Mini's wide field of view is actually well suited for bright comets, which often have extended tails that benefit from a wider frame.
 
 **Q: How do I image the Milky Way?**
-The Dwarf Mini is well suited for Milky Way photography — its wide field of view (~3.7° × 2.8°) and fast f/4.2 focal ratio are a good match for large extended objects like the galactic core.
+The Dwarf Mini can photograph the Milky Way, but its telephoto field of view (~2.13° × 1.20°) at f/5 covers only a small part of the galactic core in a single frame. Frame bright regions such as star clouds and nebulae individually, or use Panorama mode to capture a wider sweep.
 
 **When to shoot:**
 The galactic core (the bright, dense central band) is only above the horizon during certain months. In the northern hemisphere it is best visible from approximately **late April through September**, with peak visibility in July and August. In the southern hemisphere the season is longer and the core appears higher in the sky.
@@ -344,6 +344,34 @@ The galactic core is in the direction of the constellation **Sagittarius**. Use 
 - Dew and humidity can fog the lens on warm summer nights — check the lens periodically during long sessions.
 - **Plan for battery life.** A quality Milky Way session — stacking hundreds of frames at 15–30 seconds each — can easily run 2–3 hours or more, which will exceed the Dwarf Mini's built-in battery. Bring a USB power bank with sufficient capacity and connect it to the Dwarf Mini to keep the session running.
 - The Milky Way is a good candidate for Panorama mode if you want to capture a wider sweep than a single frame allows. Note that Panorama mode requires EQ mode.
+
+**Q: What is Star Trail mode?**
+Star Trail mode captures the circular arcs that stars trace across the sky as the Earth rotates. It uses the Dwarf Mini's **wide-angle lens**, not the telephoto, and works like a built-in intervalometer: the scope shoots frame after frame from a fixed position and stacks them in real time, so you can watch the trails grow on screen. When the session ends, the app produces star trail **videos** (MP4, 30 fps) in two styles: **Classic** (trails build up over time) and **Comet** (each star leaves a fading tail). Star Trail mode was added in app V3.3.8 (February 2026).
+
+**Q: How do I shoot star trails?**
+1. **Capture wide-angle dark frames first** (see the next question)
+2. Tap the **mode icon** in the top-right corner of the shooting screen and select **Star Trails**
+3. Use the on-screen joystick to compose your shot. Include some foreground (trees, a building, a horizon line) for scale
+4. Choose a shooting duration from **30 to 360 minutes**, or **infinite** to run until you stop it manually
+5. Choose your exposure settings:
+   - **Automatic** (recommended for your first session)
+   - **Quick** (matched to an existing dark frame in your library)
+   - **Manual** (set shutter speed and gain yourself)
+
+   Turn automatic adjustment off to use Quick or Manual.
+6. Start shooting. Two timers appear: a **red** timer shows elapsed shooting time, and a **black** timer shows how much exposure has been successfully stacked
+
+**Tips:**
+- **Point north** (toward Polaris in the Northern Hemisphere) to get the classic concentric-circle "vortex" of circumpolar stars. Pointing east or west gives long, gently curved arcs instead.
+- **Longer sessions make longer trails.** More frames and longer exposures both produce longer, more prominent trails.
+- **Plan for power.** A multi-hour session will outlast the built-in battery, so bring a USB power bank.
+- **Clean up afterward.** If an airplane or satellite crosses the frame, you can later remove the affected frames and restack with **Mega Stack**, and the videos regenerate automatically.
+
+**Q: Do I need dark frames for star trails?**
+Yes, you should capture them yourself. The telephoto camera comes preloaded with dark frames, but the wide-angle camera does not, and the app **won't prompt you** to capture any before a star trail session. Without them, you may see artifacts such as reverse vignetting. Capture wide-angle darks from the left-side menu before you start. They must match your session's exposure time and gain, and be taken within about **±8 °C** of the current temperature. Once a matching set is in your dark library, you can reuse it on later nights.
+
+**Q: My star trail session doesn't appear in the album. Where is it?**
+A star trail video appears in the app's album only after the session has accumulated at least **30 frames**. Shorter sessions are still saved on the Dwarf Mini itself, but you'll need to connect it to a computer to retrieve them. Also keep in mind that at 30 fps, a session needs a fair number of frames just to make a video longer than a second or two, so very short sessions produce very short clips.
 
 ---
 
@@ -545,6 +573,8 @@ Yes — all three types are supported, though the level of user control differs 
 **Q: Do I need to shoot my own dark frames?**
 No. The Dwarf Mini has a built-in dark filter in its integrated filter wheel. It automatically captures dark frames as part of each imaging session — thermal noise suppression is handled for you without any extra steps.
 
+**Exception: the wide-angle lens.** The automatic darks cover the telephoto camera. Modes that use the wide-angle lens, such as **Star Trail mode**, need wide-angle dark frames that you capture yourself. See *Do I need dark frames for star trails?* in Section 8.
+
 **Q: Do I need to shoot my own flat or bias frames?**
 No — for most users. The Dwarf Mini ships with factory-calibrated flat and bias frames loaded per device. Because the optical system is fixed, the factory data remains valid over time. In-app user management of flat and bias frames is still under development and will be added in a future firmware update.
 
@@ -637,4 +667,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-24 0929 CST*
+*Last updated: 2026-09-24 0933 CST*
