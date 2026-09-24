@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-23 1912 CST*
+*Last updated: 2026-09-23 1926 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -53,7 +53,7 @@ No. The Dwarf Mini is a camera-based smart telescope. All viewing is done throug
 
 ## 2. Hardware & Specifications
 
-**Q: What are the key optical specifications?**
+**Q: What are the key specifications?**
 
 | Parameter | Value |
 |---|---|
@@ -63,6 +63,9 @@ No. The Dwarf Mini is a camera-based smart telescope. All viewing is done throug
 | Main Camera | Sony IMX662 (color) |
 | Field of View | ~2.13° × 1.20° (diagonal ~2.45°) |
 | Mount Type | Alt-azimuth, motorized |
+| Weight | 840 g (1.8 lb) |
+| Battery | 7000 mAh, built-in |
+| Rotation Range | 225° lens barrel tilt + 360° base rotation |
 
 > **Note:** Specifications are subject to change. Always verify against the official DWARFLAB product page.
 
@@ -91,7 +94,10 @@ EQ mode (equatorial mode) is a software-guided setup that tilts the Dwarf Mini's
 EQ mode supports exposures up to **180 seconds** on the Dwarf Mini (as of firmware February 2026). In Alt-Az mode the practical limit before field rotation degrades the image is considerably shorter.
 
 **Q: What is the battery life?**
-The Dwarf Mini has a built-in battery. Expected runtime varies by use case (motors running, Wi-Fi active, temperature) but is typically in the range of 3–4 hours of continuous operation. Cold weather reduces battery life noticeably.
+The Dwarf Mini has a built-in 7000 mAh battery. Expected runtime varies by use case (motors running, Wi-Fi active, temperature) but is typically in the range of 3–4 hours of continuous operation. Cold weather reduces battery life noticeably.
+
+**Q: How does the Dwarf Mini charge, and how long does it take?**
+The Dwarf Mini charges over **USB-C**. DWARFLAB recommends a USB-PD (2.0/3.0) charger or cable capable of 12V/2A (24W) for fast charging — the battery icon shows a double lightning bolt when fast charging is active. A standard 5V USB charger also works but charges more slowly. A full charge takes roughly 100 minutes with fast charging. The Dwarf Mini can be used while charging and is compatible with USB power banks.
 
 **Q: What storage does the Dwarf Mini have?**
 The Dwarf Mini has **64 GB of built-in eMMC storage** (the system itself uses a portion of this, so the space available for images is somewhat less than 64 GB). There is no microSD card slot. Images can be transferred to your phone via the app.
@@ -626,4 +632,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-23 1912 CST*
+*Last updated: 2026-09-23 1926 CST*
