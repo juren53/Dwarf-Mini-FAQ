@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-23 1906 CST*
+*Last updated: 2026-09-23 1908 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -94,7 +94,7 @@ EQ mode supports exposures up to **180 seconds** on the Dwarf Mini (as of firmwa
 The Dwarf Mini has a built-in battery. Expected runtime varies by use case (motors running, Wi-Fi active, temperature) but is typically in the range of 3–4 hours of continuous operation. Cold weather reduces battery life noticeably.
 
 **Q: What storage does the Dwarf Mini have?**
-The Dwarf Mini has internal storage. Check the current firmware release notes for capacity. Images can be transferred to your phone via the app.
+The Dwarf Mini has **64 GB of built-in eMMC storage** (the system itself uses a portion of this, so the space available for images is somewhat less than 64 GB). There is no microSD card slot. Images can be transferred to your phone via the app.
 
 ---
 
@@ -626,4 +626,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-23 1906 CST*
+*Last updated: 2026-09-23 1908 CST*
