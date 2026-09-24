@@ -8,6 +8,13 @@ All notable changes to this FAQ will be documented in this file.
 
 ---
 
+## 2026-09-24 0924 CST
+
+### Changed
+- **Q: What is Sky Finder?** — verified against DWARFLAB's V3.3.8 release notes and the DWARF mini user manual (wide-angle lens and GoTo-from-view confirmed); added where to open it (Select Target window in Astro/Deep Sky mode), Refresh/joystick re-identification, the camera icon for one-tap GoTo, and a wide-angle exposure/gain tip (Section 9)
+
+---
+
 ## 2026-09-24 0919 CST
 
 ### Fixed

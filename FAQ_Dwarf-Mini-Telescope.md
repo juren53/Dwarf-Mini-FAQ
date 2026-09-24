@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-24 0919 CST*
+*Last updated: 2026-09-24 0924 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -422,14 +422,16 @@ Yes. Once pointed at a target, the Dwarf Mini's motors compensate for Earth's ro
 Stop the current imaging session by pressing and holding the **Stop** button (or shutter button, depending on app version) in the app. The telescope will stop capturing and stacking. You can then use GoTo to select a new target — the scope will slew and begin a fresh stacking session on the new object. Any stacked image from the previous session should be saved to internal storage before you switch targets.
 
 **Q: What is Sky Finder?**
-Sky Finder is a target discovery feature in the DWARFLAB app that uses the Dwarf Mini's wide-angle lens to identify what celestial objects are currently visible in your sky. To use it:
+Sky Finder is a target discovery feature in the DWARFLAB app that uses the Dwarf Mini's **wide-angle lens** to identify what celestial objects are currently visible in your sky. It works by plate solving: the app analyzes the pattern of stars in the wide-angle view and matches it against its internal star catalog. To use it:
 
-1. Point the Dwarf Mini toward an open area of sky with visible stars
-2. Tap **Sky Finder** in the app
-3. Tap **OK** — the app analyzes the wide-angle live view using plate solving
-4. Celestial objects in the frame are identified with their names and positions overlaid on screen
+1. Point the Dwarf Mini toward a clear, unobstructed area of sky with visible stars
+2. In Astro (Deep Sky) mode, open the **Select Target** window and tap **Sky Finder**
+3. Tap **OK** and wait while the app identifies the sky (tap **Cancel** to stop)
+4. Identified targets appear as labels overlaid on the wide-angle view — tap one to see its details
+5. To look elsewhere, move the scope and tap **Refresh**, or use the on-screen joystick for real-time updates
+6. Select a target and tap the **camera icon** — the Dwarf Mini performs a one-tap GoTo, calibrating, slewing to the target, and beginning tracking
 
-Sky Finder is particularly useful for beginners who aren't sure what is visible or where to point the scope. Once you see an object you want to image, you can select it directly from the Sky Finder view and GoTo will slew to it. Sky Finder was added in app V3.3.8 / Stellar Studio V1.4.15.2 (February 2026).
+Sky Finder is particularly useful for beginners who aren't sure what is visible or where to point the scope. If identification struggles, community users recommend setting the wide-angle camera to auto exposure with fairly high gain so more stars are visible. Sky Finder was added in app V3.3.8 / Stellar Studio V1.4.15.2 (February 2026).
 
 **Q: The GoTo pointed at the wrong part of the sky. What should I do?**
 - Make sure your phone's location (GPS) is correct and that the date/time on your phone is accurate.
@@ -632,4 +634,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-24 0919 CST*
+*Last updated: 2026-09-24 0924 CST*
