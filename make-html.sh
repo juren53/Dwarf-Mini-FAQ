@@ -6,4 +6,5 @@ set -e
 
 cd "$(dirname "$0")"
 export PATH="$PATH:/c/Program Files/Pandoc"
-python build-html.py
+PYTHON=$(command -v python3 || command -v python)
+"$PYTHON" build-html.py
