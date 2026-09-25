@@ -1,6 +1,6 @@
 # Dwarf Mini Smart Telescope — FAQ
 
-*Last updated: 2026-09-24 0938 CST*
+*Last updated: 2026-09-25 1140 CST*
 
 A community-maintained FAQ for the **Dwarf Mini Smart Telescope** by DWARFLAB.
 
@@ -446,6 +446,8 @@ For Dec: the degrees value is the same; multiply the decimal remainder by 60 for
 **Q: What is star alignment / plate solving?**
 Some smart telescope apps use **plate solving** — the camera takes an image, compares the star pattern against a known star catalog, and precisely determines where the telescope is pointing. This corrects for small pointing errors. Check the DWARFLAB app release notes to see if and how plate solving is supported for your firmware version.
 
+> **Note:** "Plate solving" is a long-established astronomy term (predating digital sensors, from the photographic plates once used to record star fields), used industry-wide for this technique. DWARFLAB's own Dwarf Mini documentation instead calls its implementation of this technique "calibration" — same underlying mechanism, different label. See [Astrometric solving](https://en.wikipedia.org/wiki/Astrometric_solving) on Wikipedia for more information on how the technique works in general.
+
 **Q: Does the Dwarf Mini track objects?**
 Yes. Once pointed at a target, the Dwarf Mini's motors compensate for Earth's rotation to keep the object in frame. This is essential for longer exposures.
 
@@ -669,4 +671,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 *This FAQ is community-maintained and is not affiliated with or endorsed by DWARFLAB. Information may become outdated as firmware and app updates are released. Always verify critical details against official DWARFLAB documentation.*
 
-*Last updated: 2026-09-24 0938 CST*
+*Last updated: 2026-09-25 1140 CST*
